@@ -1,0 +1,192 @@
+{
+  "categories": [
+    "general",
+    "products"
+  ],
+  "content": "Learn the key concepts of the blockchain revolution.",
+  "created": "2023-05-03T10:17:51.283Z",
+  "guideIntegrations": {
+    "discordRoleIds": []
+  },
+  "guideType": "level-up",
+  "key": "the-blockchain-revolution",
+  "name": "1. The Blockchain Revolution",
+  "publishStatus": "Draft",
+  "showIncorrectOnCompletion": true,
+  "steps": [
+    {
+      "content": "In this lesson, you will have a short introduction to the course and you will learn the key concepts of the blockchain revolution: why Web3 is a new iteration of the Internet and how it is different from Web2, the Internet controlled by the big tech companies of Silicon Valley. \n\nWatch this short recording of this first lesson by Kleros's CEO, Federico Ast before moving to the subsequent pages to test your knowledge! \n<div align=\"center\">\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/kAcZSGIrF-4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div>",
+      "name": "Watch the lesson video",
+      "stepItems": [],
+      "uuid": "cfa3473a-1189-4055-bc8d-2d8b4cb9356f"
+    },
+    {
+      "content": "Let's test your understanding of how the Blockchain Revolution came about, and how Web3 protocols and applications contrast with their Web2 counterparts.\n<hr>",
+      "name": "Quiz - The Blockchain Revolution",
+      "stepItems": [
+        {
+          "answerKeys": [
+            "78fbdb75"
+          ],
+          "choices": [
+            {
+              "content": "The 2000 dot-com crash.",
+              "key": "68d3f7cb"
+            },
+            {
+              "content": "The 2008 Global Financial Crisis (aka Great Recession).",
+              "key": "78fbdb75"
+            },
+            {
+              "content": "The 1929 stock market crash at the start of the Great Depression.",
+              "key": "76c13440"
+            }
+          ],
+          "content": "Which event precipitated the rise of Bitcoin and the Blockchain Revolution?",
+          "type": "SingleChoice",
+          "uuid": "eda18ccf-686c-4e01-8087-ce9cbef400f2"
+        },
+        {
+          "answerKeys": [
+            "b3a61533"
+          ],
+          "choices": [
+            {
+              "content": "They are great for sourcing great music.",
+              "key": "82d0a7af"
+            },
+            {
+              "content": "They draw us in with free services but take advantage of our personal data and intercepts our transactions.",
+              "key": "b3a61533"
+            },
+            {
+              "content": "They sound off alarms when malicious activities happen on their networks.",
+              "key": "93014af6"
+            }
+          ],
+          "content": "Why are Web2 platforms referred to as 'siren servers' by Jaron Lanier in his book 'Who Owns the Future'?",
+          "type": "SingleChoice",
+          "uuid": "40289755-7bd7-4c07-872c-ea3aace2f770"
+        }
+      ],
+      "uuid": "27d28253-1c7a-4602-bd1a-9c9f56498bf3"
+    },
+    {
+      "content": "The Protocol Sink Thesis is a great framework to understand the long-term viability of Web3 projects. Let's test our understanding of this concept!\n<hr>",
+      "name": "Quiz - the Protocol Sink Thesis",
+      "stepItems": [
+        {
+          "answerKeys": [
+            "bbbf76d6",
+            "74464d6d",
+            "e5d02553"
+          ],
+          "choices": [
+            {
+              "content": "Protocols become more 'dense' as they are built on by other protocol/projects, and will tend to settle towards the bottom of the Protocol Sink.",
+              "key": "74464d6d"
+            },
+            {
+              "content": "The more trustless, permissionless and credibly neutral a protocol is the further it can scale to become a global platform.",
+              "key": "bbbf76d6"
+            },
+            {
+              "content": "The thesis predicts that Web3 protocols will never reach the scale of their Web2 counterparts.",
+              "key": "d75bb176"
+            },
+            {
+              "content": "The resting place of a protocol in the Protocol Sink is determined by its utility and surface area for attack.",
+              "key": "e5d02553"
+            }
+          ],
+          "content": "Which of the following describes the Protocol Sink Thesis for crypto-systems proposed by Ryan Sean Adam? Select all that are correct.",
+          "type": "MultipleChoice",
+          "uuid": "d62d7ca8-728a-41be-a5ee-d58b2b8bfc0e"
+        },
+        {
+          "answerKeys": [
+            "2167f4a1"
+          ],
+          "choices": [
+            {
+              "content": "Utility / (Attack Surface)^2",
+              "key": "7cad882a"
+            },
+            {
+              "content": "Utility / Attack Surface",
+              "key": "2167f4a1"
+            },
+            {
+              "content": "Utility x Attack Surface",
+              "key": "79df0187"
+            }
+          ],
+          "content": "Which of the following is the correct definition of Protocol Density?",
+          "type": "SingleChoice",
+          "uuid": "3c93c18b-1caa-41c2-8be2-318a34dc2168"
+        }
+      ],
+      "uuid": "21ed95aa-fd2a-4272-8b01-f8acd3c89ea9"
+    },
+    {
+      "content": "Now, for the final quiz, let's test your knowledge on how and why to build in Web3!\n<hr>",
+      "name": "Quiz - Building on Web3",
+      "stepItems": [
+        {
+          "answerKeys": [
+            "6fe5422a",
+            "b0402f0b"
+          ],
+          "choices": [
+            {
+              "content": "There is less supplier risk, as services built in a decentralized manner are uncensorable and more transparent.",
+              "key": "b0402f0b"
+            },
+            {
+              "content": "The response time of decentralized API services are definitely better than Web2 alternatives.",
+              "key": "3999d7e4"
+            },
+            {
+              "content": "The cost and business models of the suppliers are more attuned towards the interests of the customers, and are less likely to tend towards rent-seeking behaviour as they scale.",
+              "key": "6fe5422a"
+            }
+          ],
+          "content": "What are some benefits of building on Web3 solutions instead of their Web2 counterparts?",
+          "type": "MultipleChoice",
+          "uuid": "f75a890a-b326-4cab-a51e-3390414e0805"
+        },
+        {
+          "answerKeys": [
+            "a76b4b47"
+          ],
+          "choices": [
+            {
+              "content": "A protocol is credibly neutral if it is not created by a single centralized entity.",
+              "key": "1bf195d0"
+            },
+            {
+              "content": "Anything can be considered credibly neutral if it does not extract rent and payments from its users.",
+              "key": "88d74521"
+            },
+            {
+              "content": "A credible neutral protocol is built on rules that doesn't arbitrarily benefit some group of users over others.",
+              "key": "a76b4b47"
+            }
+          ],
+          "content": "What is a credibly neutral protocol?",
+          "type": "SingleChoice",
+          "uuid": "3ce5b816-1a46-4179-bd5c-fc1f45096684"
+        }
+      ],
+      "uuid": "4be9c283-5da7-4718-931c-f56e9fc3873f"
+    },
+    {
+      "content": "Congratulations! You have made it to the end of the first lesson of this course!\n\n#### Homework\nThe homework for this lesson is to read the materials below to build an understanding of Web3.\n\n#### Further readings\n- Carlota Pérez. “[Technological Revolutions and Financial Capital](https://books.google.com.uy/books/about/Technological_Revolutions_and_Financial.html?id=FNW5RriDOGAC&redir_esc=y)”.\n- Chris Burniske. “[Cryptonetworks are not Companies](https://medium.com/@cburniske/cryptonetworks-are-not-companies-a307ad6a61ae)”. Placeholder.\n- Chris Burniske. “[Protocols as Minimally Extractive Coordinators](https://www.placeholder.vc/blog/2019/10/6/protocols-as-minimally-extractive-coordinators)”. Placeholder.\n- Chris Dixon. “[Why Decentralization Matters](https://onezero.medium.com/why-decentralization-matters-5e3f79f7638e)”. A16z blog.\n- Jake Brukhman. “[All Digital Content is Going On-Chain](https://blog.coinfund.io/all-digital-content-is-going-on-chain-ae26a7071657)”.\n- Jesse Walden. “[Past, Present, Future. From Coops to Cryptonetworks](https://a16z.com/2019/03/02/cooperatives-cryptonetworks/)”.\n- Jesse Walden. “[Crypto’s Business Model is Familiar. What Isn’t is Who Benefits](https://future.com/crypto-business-model/)”. Future.\n- Joel Monegro. “[Fat Protocols](https://www.usv.com/writing/2016/08/fat-protocols/)”. Union Square Ventures.\n- Joel Monegro and Chris Burniske. “[Placeholder Investment Thesis Summary](https://www.placeholder.vc/blog/2018/2/13/thesis-summary)”. Placeholder.\n- Mario Laul. “[How Crypto is Shaping the Digital Revolution](https://society.mirror.xyz/4jGQznFpgO1QvTg9VVtb7U7MYTHITuxkazUyDtnhwkI)”.\n- Vitalik Buterin. “[Credible Neutrality as a Guiding Principle”](https://nakamoto.com/credible-neutrality/). Nakamoto. 2020.\n- Glen Weyl, Puja Ohlhaver and Vitalik Buterin. [Decentralized Society: Finding Web3's Soul](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4105763).",
+      "name": "Homework and further readings",
+      "stepItems": [],
+      "uuid": "355b2dd2-d8a0-4c6c-99c0-e71e14ad5054"
+    }
+  ],
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi",
+  "uuid": "5eb49111-2963-45fe-9dae-4676288350f4"
+}

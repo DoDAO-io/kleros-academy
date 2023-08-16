@@ -1,0 +1,121 @@
+categories:
+  - products
+  - sales
+content: Learn to build a winning strategy for your product.
+created: '2023-05-03T10:16:34.114Z'
+guideIntegrations:
+  discordRoleIds: []
+guideType: level-up
+key: learn-build-winning-strategy
+name: 2. Strategy Design
+publishStatus: Draft
+showIncorrectOnCompletion: true
+steps:
+  - content: >-
+      In this lesson, you will use the Lean Canvas methodology to build a
+      strategy for your project. You will define the problem, the solution and
+      the user segments you plan to serve and develop a winning value
+      proposition.
+
+
+      Watch this short recording of this first lesson by Kleros's CEO, Federico
+      Ast before moving to the subsequent pages to test your knowledge! 
+
+      <div align="center">
+
+      <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/JTKB5DjyOOY" title="YouTube video
+      player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+      encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      </div>
+    name: Watch the lesson video
+    stepItems: []
+    uuid: 0d89d5dd-0c80-433d-bd43-b48df0def8f0
+  - content: ''
+    name: Quiz - Protocol Sink (recap)
+    stepItems:
+      - answerKeys:
+          - only_cat
+          - dog_and_cat
+        choices:
+          - content: Increasing its utility.
+            key: dog_and_cat
+          - content: Decreasing its utility.
+            key: dog_or_cat
+          - content: Increasing its attack surface
+            key: only_dog
+          - content: Decreasing its attack surface.
+            key: only_cat
+        content: >-
+          According to the Protocol Sink Thesis, what are the ways to increase
+          the adoption of a Web3 protocol?
+        type: MultipleChoice
+        uuid: 73a2b4db-c5d6-4346-a37d-dc864316d9f9
+    uuid: 029efcde-5950-46ec-b538-378243c9d9e6
+  - content: |-
+      Let's test ourselves on some of the key things about the Lean Canvas.
+      <hr>
+    name: 'Quiz - Lean Canvas '
+    stepItems:
+      - answerKeys:
+          - 9989d1c6
+        choices:
+          - content: >-
+              It is a methodology for operating a startup with the lowest cost
+              and overhead.
+            key: c757baae
+          - content: >-
+              It is a design thinking methodology that summarizes the key
+              elements of a startup in a simple sheet.
+            key: 9989d1c6
+          - content: It is relevant only for late stage companies.
+            key: 62da8ed9
+        content: Which of the following are true about the purpose of the Lean Canvas?
+        type: MultipleChoice
+        uuid: f4895fcd-ca8b-4ada-b022-b58ac26dc52e
+      - answerKeys:
+          - d6964907
+          - acbf8b3c
+        choices:
+          - content: >-
+              'Channels' in the Lean Canvas refer to how you get access to your
+              suppliers.
+            key: 7a5b2614
+          - content: >-
+              The first step in developing your startup's Lean Canvas is to
+              figure out your cost structure.
+            key: cbf80717
+          - content: >-
+              After figuring out the problem you want to solve, you need to
+              figure out the right customer segments to address.
+            key: d6964907
+          - content: >-
+              A well thought out Lean Canvas is essential to the success of a
+              startup's product.
+            key: acbf8b3c
+        content: >-
+          Which of the following are true about the components of the Lean
+          Canvas?
+        type: MultipleChoice
+        uuid: 3f830ea0-bf5c-4b58-9f2e-49c670feaee6
+    uuid: fc7fedfd-75d9-490d-8340-7f6625b9f08b
+  - content: >-
+      Great! You have made it to the end of the second lesson of this course!
+
+
+      Now it's time for you to:
+
+      - Build your own Lean Canvas.
+
+
+      #### Further reading
+
+      - Ash Maurya. “[Running Lean. Iterate from a Plan A to a Plan that
+      Works](https://leanstack.com/books/runninglean)”. O’Reilly.
+    name: Homework and further reading
+    stepItems: []
+    uuid: 292d4ff9-c4eb-4014-b949-fffd1a2d2e42
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/QmWy8EeMnxqx96VEPx2NBwzqtKxvMQqVVYvmPKgAYS2cUi
+uuid: 80a4adf9-968c-42a4-b655-1cfbf60a5700
