@@ -1,0 +1,210 @@
+{
+  "categories": [],
+  "content": "Foundational guide to becoming a juror in Kleros",
+  "created": "2023-05-03T10:16:34.114Z",
+  "guideType": "level-up",
+  "guideIntegrations": {
+    "discordRoleIds": [],
+    "projectGalaxyCredentialId": "179710443003748352",
+    "projectGalaxyOatMintUrl": "https://galaxy.eco/kleros/campaign/GCYgSUtvdV",
+    "projectGalaxyOatPassingCount": 3
+  },
+  "name": "Juror Onboarding Guide (en)",
+  "showIncorrectOnCompletion": true,
+  "steps": [
+    {
+      "content": "As you might already have learnt in our [community onboarding guide](https://kleros.dodao.io/onboarding/guide/view/60f7555c-30aa-48be-8dac-915b3cbea53b/4), Kleros is a decentralized dispute resolution service that relies on a jury to perform arbitration on all kinds of disputes in a trustless and decentralized manner.\n\nWhile jury systems exist in real-world jurisdictions like the United States, Canada and Ireland, **[Kleros](https://kleros.io)** is the first and only functioning jury-based dispute resolution system in Web3. It has several features that makes it uniquely effective and suitable for truly decentralized applications:\n* **Random selection** - jurors are randomly drawn using a provably random number generator, minimizing collusion between disputants and jurors.\n* **Juror anonymity** - jurors are free to conceal their real identities behind their on-chain addresses, preventing blackmail and collusion.\n* **Governance by economic incentives** - coherent voters in a case are rewarded economically, while incoherent voters have their stakes 'slashed' (partially taken away), creating an incentive for jurors to vote carefully.\n* **Self-selection of jurors** - access to the jury is permissionless, and the penalties of voting incoherently deter jurors from self-selecting themselves into courts which they lack the knowledge to arbitrate on.\n* **Appeal system** - The ability for anyone on the internet to appeal a case and challenge the judgment of the jury in a case drastically increases the security of the court against random voting, bribes and collusion.",
+      "stepItems": [],
+      "name": "The role of jurors in Kleros",
+      "uuid": "24ea0e84-196a-4016-8cb6-c2fd566629fd"
+    },
+    {
+      "content": "Taking part as a juror is easy - simply buy some **Pinakion/PNK** tokens, go to the [Kleros Court interface](https://court.kleros.io) and stake in the court that you feel most comfortable with contributing as a juror.\n\n![Diagram showing steps to becoming a juror](https://blog.kleros.io/content/images/2020/09/Jurors-start.png \"3 steps to becoming a juror\")\n\nHere are the links to bring you directly to where you need to be:\n\n1. Download a wallet (we recommend [Metamask](https://metamask.io/))\n2. Buy some Pinakion/PNK tokens (see list of decentralised and centralised exchanges [here](https://kleros.gitbook.io/docs/pnk-token))\n3. The [Court interface ](https://court.kleros.io/) (available on the Ethereum and Gnosis chain)\n4. Overview of the [available courts in Kleros](https://kleros.gitbook.io/docs/products/court)",
+      "stepItems": [],
+      "name": "Getting started as a juror",
+      "uuid": "b90c9710-09fc-4bf8-bd24-49e1183677fb"
+    },
+    {
+      "content": "All disputes initiated in Kleros go through these 5 stages:\n\n1. **Evidence** - Evidence can be submitted. This is also when drawing of jurors takes place.\n2. **Commit** - Jurors commit a hashed vote. This is skipped for courts without hidden votes. \n3. **Vote** - Jurors reveal/cast their vote depending on whether the court has hidden votes or not. \n4. **Appeal** -  The dispute can be appealed. \n5. **Execution** - Tokens are redistributed and the ruling is executed.\n\nThe overall flow is visualized in this diagram:\n![Diagram showing the processes in Kleros Court](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LPbPWuMtwBOvW0iuxyw%2Fuploads%2FanPuZOrP5JrAUT0KHt1k%2Fimage.png?alt=media&token=67762a69-d1f1-46fd-8c36-6c05fa54afc7 \"Kleros court processes visualised\")\n",
+      "stepItems": [],
+      "name": "Processes of Kleros Court",
+      "uuid": "7e2d315a-88d6-460d-8c9b-fb6c565ccbe5"
+    },
+    {
+      "content": "Great! \n\nNow let's test your knowledge of the things discussed so far!\n",
+      "stepItems": [
+        {
+          "answerKeys": [
+            "a1fef3ee",
+            "a708f268"
+          ],
+          "choices": [
+            {
+              "content": "I need to have acquired some PNK tokens and staked them in the Kleros Court in question.",
+              "key": "a1fef3ee"
+            },
+            {
+              "content": "I need to have submitted my educational qualifications for verification.",
+              "key": "c97256d0"
+            },
+            {
+              "content": "I need to be whitelisted by the disputants and/or Kleros.",
+              "key": "4029efe4"
+            },
+            {
+              "content": "I need to have been drawn as a juror by the randomized drawing process.",
+              "key": "a708f268"
+            },
+            {
+              "content": "The dispute needs to take place during my birthday month.",
+              "key": "0d5e0e79"
+            },
+            {
+              "content": "I cannot be part of the organisation that is involved in the disputes.",
+              "key": "d534bdf3"
+            }
+          ],
+          "content": "Which of the following options describe how you get selected to be part of the jury of a dispute?",
+          "type": "MultipleChoice",
+          "uuid": "c502bfaf-188e-4a18-aace-b321841065f5"
+        }
+      ],
+      "name": "Evaluation #1",
+      "uuid": "8facc746-65b3-49c5-94fb-1b77cc1a5dae"
+    },
+    {
+      "content": "The most important document present in every dispute is the **primary document**, which is a (PDF) file that describes the terms and conditions of the agreement that precedes the dispute, and lays out the rules for its resolution. Its role is similar to that of a piece of law or contract used for resolving real-world disputes, and forms the basis for jurors to decide what is the right ruling.\n\nIn the diagram below, you can see a link to the primary document at the bottom of the screen in the Kleros Court interface: \n![Screenshot showing the primary document displayed at the bottom of the voting interface](https://i.imgur.com/ClqvF9m.jpeg \"Primary document link at the bottom of the Court interface\")\n\nHere are a couple of links to primary documents used in past disputes:\n- [Unslashed Finance](https://ipfs.kleros.io/ipfs/QmeTBY7jZe2ut5WjifNASADo3E4zBxkMd62WwBpXtwP9pg)\n- [Kleros Tokens](https://ipfs.kleros.io/ipfs/QmTL1SCKpRcr7NRbVpXW6z9QoQXRHJT5cQr6PEge5qoLwU/t2cr-primary-document.pdf)\n- [Proof-of-Humanity](https://ipfs.kleros.io/ipfs/QmXDiiBAizCPoLqHvcfTzuMT7uvFEe1j3s4TgoWWd4k5np/proof-of-humanity-registry-policy-v1.3.pdf)",
+      "stepItems": [],
+      "name": "Reviewing the 'Primary Document'",
+      "uuid": "0188a2cb-c349-4662-8ac5-259b96996a33"
+    },
+    {
+      "content": "Evidences are documents uploaded in support of a particular outcome to a case. These can be anything from plain text, images to extensive (PDF) documents with in-depth analysis and argumentation.\n\nIn the Kleros evidence standard (aka [ERC-1497](https://kleros.gitbook.io/docs/developer/erc-1497-evidence-standard) for the technically inclined), evidences are managed by the '*Arbitrable*' application (see the [ERC-792 Arbitration standard](https://kleros.gitbook.io/docs/developer/erc-792-arbitration-standard)), which is the application responsible for creating the dispute in Kleros Court and enforcing the ruling that comes back from it. They are then displayed in Kleros Court, and meant to be interpreted by the jurors using the Primary Document as backdrop.\n\n![Relationship between Arbitrables and Arbitrators](https://3482524208-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LPbPWuMtwBOvW0iuxyw%2Fuploads%2Fgit-blob-8d377e7918f3509618161378338a8cfeacfcf2b7%2Faa1%20(2).jpg?alt=media)\n\n**Provenance of evidences**\n\nIt is important to note that there can be people outside of the disputants and the jury that would like to submit evidences or arguments (e.g. experts, impassioned community members, people with access to special information/knowledge). Therefore, most Arbitrable applications actually allow anyone on the internet to submit evidences as long as they are willing to expend gas to upload the evidence. \n\nWhile each piece of evidence should be reviewed on its own merits, it can be insightful to know what the possible sources of evidences are in a case, and which categories of evidence (submitters) are or are not represented.",
+      "stepItems": [],
+      "name": "Reviewing evidences",
+      "uuid": "ff692e83-355e-4712-9a30-405993b41e26"
+    },
+    {
+      "content": "In the Kleros system, a vote is **coherent** if it coincides with the majority choice, and is rewarded with a coherence reward at the conclusion of a case. On the other hand, incoherent votes will lead to the voter's stake getting slashed and redistributed to the coherent voters. It is also important to know that you must vote if you are drawn; otherwise you get slashed by default. \n\nCoherence is only determined at the end of an entire dispute. If a vote was coherent only in the first round of a dispute, the voter could still be slashed at the end of a dispute if the final round of appeals led to a different ruling.\n\n**Refusing to arbitrate**\n\nThere is always the option to choose to '**Refuse to arbitrate**' in any dispute on Kleros Court. \nThis option is reserved for situations where it is not reasonable for the jury to rule, which includes but are not limited to the following:\n* The case involves a topic that is inconsistent with the Court's policy (e.g. asking to rule on topics involving assassination markets, porn)\n* The jury is unable to access or verify the information presented in the case to make an informed vote.\n* The case was wrongly assigned to the court in question (e.g. a translation dispute case being brought to a technical blockchain court)\n\nVoting to 'Refuse to arbitrate' is considered as valid a choice as any other options presented to the jurors. You will therefore not be slashed for inactivity, and will be given coherence rewards if the majority chooses to 'Refuse to arbitrate' too, and slashed if you are in the minority.\n\n\n",
+      "stepItems": [],
+      "name": "Voting coherently",
+      "uuid": "46402b9d-449a-44aa-a6f7-0855d6e09fd6"
+    },
+    {
+      "content": "As shown in the diagrams in the section about the processes in Kleros Court, every round of voting is followed by an appeal stage. When a case is in appeal, anyone can appeal the case by placing the deposit, which will escalate the case into another round of arbitration with a larger and different set of jurors.\n\nThe opportunity to appeal is especially interesting for jurors whose choice ended up being the minority choice of a round; if you believe you are truly right, you can appeal the case and upload new evidences and arguments to convince the next round of jurors. This gives you a chance to vindicate yourself and stand a chance to win a higher reward (e.g. coherence reward plus the deposit & stakes of those who supported the opposing side).",
+      "stepItems": [],
+      "name": "Appealing rulings",
+      "uuid": "83b742ae-883e-47eb-ab03-5fa5180dfe8d"
+    },
+    {
+      "content": "",
+      "stepItems": [
+        {
+          "answerKeys": [
+            "94d80c17",
+            "1036be12",
+            "b9ee370e"
+          ],
+          "choices": [
+            {
+              "content": "I can do nothing in a case I'm drawn into (e.g. not vote at all) and face no consequences.",
+              "key": "a0f375b8"
+            },
+            {
+              "content": "If I voted 'incoherently' (e.g. in the minority) after the voting phase of a round has concluded (but appeal phase still ongoing), I would have already been slashed.",
+              "key": "63d71ef2"
+            },
+            {
+              "content": "If I voted 'coherently' (e.g. in the majority) after the final voting and appeal phase of a case have concluded, I will be safe from slashing and eligible for a coherence reward.",
+              "key": "b9ee370e"
+            },
+            {
+              "content": "Voting 'Refuse to arbitrate' is considered 'voting' and I will not be slashed for inaction.",
+              "key": "94d80c17"
+            },
+            {
+              "content": "As a coherent voter, I will be eligible for a reward in ETH (on Ethereum), and potentially an additional portion in PNK from the slashed stakes of incoherent voters.",
+              "key": "1036be12"
+            }
+          ],
+          "content": "Which of the following are possible outcomes for a juror after a case concludes?",
+          "type": "MultipleChoice",
+          "uuid": "2cb8f323-ee67-499d-af9b-028401dcedbd"
+        },
+        {
+          "answerKeys": [
+            "b29b99e6",
+            "74c45a6e"
+          ],
+          "choices": [
+            {
+              "content": "Only the jurors in the current round can appeal a case.",
+              "key": "3f4b3d08"
+            },
+            {
+              "content": "When a case is appealed, the same jurors from the previous round are drawn in to vote again.",
+              "key": "4acf5f59"
+            },
+            {
+              "content": "If an appeal is started and only one side funds the appeal, that side automatically wins the dispute regardless of the ruling in the last round.",
+              "key": "b29b99e6"
+            },
+            {
+              "content": "An appeal can be crowdfunded, with potential winnings from the dispute distributed to the.crowd funders proportionally to the size of their contributions.",
+              "key": "74c45a6e"
+            }
+          ],
+          "content": "Which of the following are true regarding the appeal mechanism of Kleros Court?",
+          "type": "MultipleChoice",
+          "uuid": "8aa1ad60-e217-4aa3-accf-8f69f9c741dc"
+        },
+        {
+          "answerKeys": [
+            "0164345f",
+            "4d92f27c",
+            "477c9d7e"
+          ],
+          "choices": [
+            {
+              "content": "Ignoring the merits of a case if the subject matter already violates the rules of the court in question.",
+              "key": "0164345f"
+            },
+            {
+              "content": "Going to social media to find other jurors, and base your vote on the most popular opinion of the crowd.",
+              "key": "103b52e4"
+            },
+            {
+              "content": "Basing your vote on a published bribe by one of the disputants.",
+              "key": "b041c11c"
+            },
+            {
+              "content": "Voting to reject a 'reasonable' claim because it failed to follow procedures laid out in the policy/primary document.",
+              "key": "4d92f27c"
+            },
+            {
+              "content": "Basing your vote on balanced discussions about the merits of a case in a Kleros community chat.",
+              "key": "477c9d7e"
+            }
+          ],
+          "content": "Which of these are good reasons to base your vote on?",
+          "type": "MultipleChoice",
+          "uuid": "f20ef7e5-e1e0-4861-9595-2cf9524c9414"
+        }
+      ],
+      "name": "Evaluation #2",
+      "uuid": "11bbbaf3-8c6a-4f36-8661-7fc9ec515ddc"
+    },
+    {
+      "content": "Congrats on making it to the end of this juror onboarding guide! \n\nFor a detailed step-by-step guide on how to go through the staking and voting process, check out this [guide here](https://kleros.gitbook.io/docs/products/court/kleros-juror-tutorial).\n\nOnce you feel confident enough it's time to contribute to decentralized justice with your newfound knowledge as a juror in [Kleros Court](https://court.kleros.io)!",
+      "stepItems": [],
+      "name": "Hurray, you are done!",
+      "uuid": "60556d25-faad-4283-8da5-d82b00b16244"
+    }
+  ],
+  "publishStatus": "Live",
+  "socialShareImage": "",
+  "thumbnail": "ipfs://QmYaLrrevNbgjo2QinGp24fh2WCXWuUbPoHzic5LdTxJ23",
+  "uuid": "juror-onboarding-guide-en",
+  "key": "juror-onboarding-guide-en",
+  "version": 37
+}
