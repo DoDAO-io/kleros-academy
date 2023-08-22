@@ -1,0 +1,250 @@
+categories:
+  - community
+  - introduction
+postSubmissionStepContent: >-
+  Thank you for learning about Kleros! 
+
+  For more information, feel free to check out our [website](https://kleros.io)
+  or dive into our [documentation](https://kleros.gitbook.io/).
+content: This is a basic guide to get acquainted with Kleros!
+created: '2023-05-03T10:16:34.114Z'
+guideIntegrations:
+  discordRoleIds: []
+  projectGalaxyCredentialId: '3488'
+  projectGalaxyOatMintUrl: https://galaxy.eco/kleros/campaign/GCi4xUthnN
+  projectGalaxyOatPassingCount: 2
+guideType: onboarding
+name: Kleros Onboarding Guide [EN]
+showIncorrectOnCompletion: true
+steps:
+  - content: >-
+      # **Overview**
+
+      <div align="center">
+
+      <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/wZZ2ipS-jZw" title="YouTube video
+      player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+      encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      </div>
+
+      Kleros is an open-source online dispute resolution protocol that uses
+      blockchain and crowdsourcing to fairly adjudicate disputes.
+
+
+      It is the mission of Kleros to develop software enabling access to justice
+      and individual freedom. As a decentralized organization, it operates via a
+      community governance structure where members of the community vote for
+      decisions that will be made in the organization. 
+
+
+      The governance token for Kleros is PNK which can also be staked and used
+      to vote on proposals. A number of products that utilize Kleros Court have
+      been developed by the Kleros team, and they include:
+
+
+      * [Dispute Resolver](https://resolve.kleros.io)
+
+      * [Escrow](https://escrow.kleros.io)
+
+      * [Proof of Humanity](https://www.proofofhumanity.id/)
+
+      * [Linguo](https://linguo.kleros.io/)
+
+      * [Curate](https://curate.kleros.io/)
+
+      * [Tokens](https://tokens.kleros.io/)
+    stepItems: []
+    name: Overview
+    uuid: 5d24442e-cb38-41ed-a4d5-2303b4519673
+  - content: ''
+    stepItems:
+      - answerKeys:
+          - c54c9cf6
+        choices:
+          - content: A political party
+            key: cbc8e8d5
+          - content: A decentralized exchange
+            key: 5f769e95
+          - content: A proof-of-work protocol
+            key: 753f7b89
+          - content: A decentralized dispute resolution protocol
+            key: c54c9cf6
+        content: After this short intro, what would you say Kleros is?
+        type: MultipleChoice
+        uuid: 87413a16-ca00-4202-98a0-ee680fec768e
+    name: Evaluation
+    uuid: 9d2e056c-ef2e-4e24-9b4c-3349a3e56133
+  - content: >-
+      The Pinakion (ticker: PNK) is the native token of Kleros, and is used both
+      for participation in dispute resolution (e.g. staking in a Kleros court to
+      stand a chance to be drawn as a juror) and in governance (i.e. voting
+      rights for new proposals, or changes to the Kleros courts).
+
+      * **Staking and coherence rewards**: Users must stake PNK in order to be
+      able to become [jurors in
+      disputes](https://kleros.gitbook.io/docs/products/court/kleros-juror-tutorial).
+      The more PNK a user stakes, the higher the chance that they will be drawn
+      as a juror in the selected court. Users who vote coherently will receive
+      coherence rewards at the end of a dispute.
+
+      * **Voting Rights**: PNK is used for all [governance
+      decisions](https://kleros.gitbook.io/docs/governance) taken on the Kleros
+      platform. We already use this mechanism to govern changes to our token
+      curated lists and courts.
+    stepItems: []
+    name: PNK Token
+    uuid: 52021b27-afbb-4533-a488-ac27852ce3e3
+  - content: ''
+    stepItems:
+      - answerKeys:
+          - 64cd37e3
+          - dd5034cb
+        choices:
+          - content: As a stablecoin for transactions
+            key: 588fb6f8
+          - content: For voting on decisions on the Kleros platform
+            key: 64cd37e3
+          - content: >-
+              For staking in order to stand a chance to be in the jury of
+              disputes
+            key: dd5034cb
+          - content: For paying gas fee on the Ethereum network
+            key: b59f4432
+        content: |-
+          What can the PNK Token be used for?
+          (Select two)
+        type: MultipleChoice
+        uuid: 993da91e-45c4-44ca-9c6c-8d37c441cecc
+    name: Evaluation
+    uuid: e3461f68-f50b-4ede-adc4-6777407950d7
+  - content: >-
+      Kleros Court leverages the judgment of a [decentralized and
+      randomly-selected
+      jury](https://blog.kleros.io/is-kleros-a-fair-dispute-resolution-system/)
+      to resolve disputes in a trustless, yet fair and secure manner. This is
+      made possible by several important choices in the design of the Court,
+      making us the only [credibly
+      neutral](https://kleros.gitbook.io/docs/products/court/kleros-and-credible-neutrality)
+      dispute resolution system on Web3:
+
+      - Usage of **sortition**(aka random drawing of lots) for jury selection
+      makes collusion extremely difficult.
+
+      - An **appeal system** makes random voting unfeasible and mitigates
+      so-called [p+epsilon
+      attacks](https://blog.ethereum.org/2015/01/28/p-epsilon-attack/)
+
+      - The **purpose-specificity** of Kleros avoids the problem of community
+      voting fatigue when dispute resolution is done using a DAO's internal
+      governance processes.
+
+      - The **independence** of Kleros from other DAOs allows for disputes to be
+      resolved in a neutral and impartial manner.
+
+
+      On top of that, the expertise and experience in dispute resolution of the
+      Kleros community is unmatched in the Web3 space, and they continuously
+      provide feedback to [Coopérative Kleros](https://kleros.io/coop/) (aka the
+      core Kleros team) to improve the technology, parameters and policies of
+      our courts.
+    stepItems: []
+    name: Why Kleros Court works
+    uuid: 7dc639ae-9a60-46d9-a952-65b204bcb0b3
+  - content: >-
+      Dispute resolution is one of the last remaining bastions of centralization
+      in Web3, and Kleros is leading the charge to change that.
+
+
+      Here are some examples of Kleros being used:
+
+      * **(DeFi) insurance claim disputes** (see our partnership with [Unslashed
+      Finance](https://blog.kleros.io/welcome-to-decentralized-insurance-kleros-x-unslashed-finance/))
+
+      * **Curation** (see Kleros token curated registries of [address
+      tags](https://blog.kleros.io/the-kleros-decentralized-tag-registry-a-proof-of-concept-for-securing-web3/)
+      and
+      [tokens](https://blog.kleros.io/tokens-by-kleros-securing-uniswap-with-decentralized-lists/))
+
+      * **Identity verification** (see [Proof of
+      Humanity](https://www.proofofhumanity.id/)) 
+
+      * **Securing oracle result resolutions** (see the
+      [documentation](https://kleros.gitbook.io/docs/integrations/types-of-integrations/how-to-use-reality.eth-+-kleros-as-an-oracle)
+      and the [Kleros+Gnosis’s
+      partnership](https://blog.kleros.io/kleros-x-safesnap/))
+
+      * **Real-world arbitration** (see this example [from
+      Mexico](https://blog.kleros.io/how-to-enforce-blockchain-dispute-resolution-in-court-the-kleros-case-in-mexico/))
+    stepItems: []
+    name: Use cases
+    uuid: 793d7121-e919-42c5-b003-36e9adabb96b
+  - content: ''
+    stepItems:
+      - answerKeys:
+          - 1536ff3a
+          - 25167d1e
+          - fd4ba921
+          - 88253f1a
+          - fe65b6ba
+          - aee0bd46
+        choices:
+          - content: Curation of NFT collections
+            key: 1536ff3a
+          - content: Bounty and job payment claims and disputes
+            key: 25167d1e
+          - content: Baking pizzas
+            key: 524e6fe2
+          - content: Social recovery of wallets
+            key: aee0bd46
+          - content: Escrow
+            key: fd4ba921
+          - content: Translation
+            key: 88253f1a
+          - content: Content Moderation
+            key: fe65b6ba
+        content: >-
+          Besides those mentioned previously, what else can Kleros be used for?
+          (Multiple answers possible)
+        type: MultipleChoice
+        uuid: a1e54d49-cd66-425c-b607-884190d05656
+    name: Evaluation
+    uuid: 8f471573-5c94-4ca1-bf77-ac810fb024e5
+  - content: >-
+      # **Join Kleros**
+
+
+      To join the Kleros community, click the links below to connect via one of
+      our social channels:
+
+
+      1. **Discord**
+      [https://discord.gg/MhXQGCyHd9](https://discord.gg/MhXQGCyHd9)
+
+      2. **Slack** [https://slack.kleros.io/](https://slack.kleros.io/)
+
+      3. **Telegram** [https://t.me/kleros](https://t.me/kleros)
+
+      4. **GitHub** [https://github.com/kleros](https://github.com/kleros)
+
+      5. **[Community developer quick-start
+      guide](https://kleros.notion.site/kleros/Kleros-Developer-Notes-4cf727f984054a93bb718ff8dc56eaa7)** 
+
+
+      If you would like to purchase PNK to participate as a juror in our courts,
+      take a look at the list of (decentralized) exchanges on [our
+      documentation](https://kleros.gitbook.io/docs/pnk-token). Once you have
+      some PNK, you can then take a look at our [juror
+      tutorial](https://kleros.gitbook.io/docs/products/court/kleros-juror-tutorial)
+      to learn how to get started as a juror  in the [Kleros
+      Courts](https://court.kleros.io)!
+    stepItems: []
+    name: Join the Kleros Community!
+    uuid: 32d8c188-8e23-4f59-8feb-3e70db99dd0d
+publishStatus: Live
+socialShareImage: ipfs://QmZZRDrdzyh7AwYTtwj44LeATgmVYbZpsRebo8KE8YDTvL
+thumbnail: ipfs://Qmdprj1VvYjzvRwV1L2uR8LoybCgzyWqi8vE9GCHNbHAxz
+uuid: kleros-onboarding-guide-en
+key: kleros-onboarding-guide-en
+version: 66
