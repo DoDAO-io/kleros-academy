@@ -1,0 +1,173 @@
+{
+  "categories": [
+    "community",
+    "introduction"
+  ],
+  "postSubmissionStepContent": "Salamat sa pag-aral tungkol sa Kleros! \nPara sa ibang mga impormasyon, i-check ang aming [website](https://kleros.io) at ang aming [Gitbook documentation](https://kleros.gitbook.io/).",
+  "content": "Pangunahing gabay sa pag-aaral tungkol sa Kleros!",
+  "created": "2023-05-03T10:16:34.114Z",
+  "guideIntegrations": {
+    "discordRoleIds": [],
+    "projectGalaxyCredentialId": "174788601805709312",
+    "projectGalaxyOatMintUrl": "https://galaxy.eco/kleros/campaign/GCi4xUthnN",
+    "projectGalaxyOatPassingCount": 2
+  },
+  "guideType": "onboarding",
+  "name": "Gabay Para sa Kleros Onboarding ",
+  "showIncorrectOnCompletion": true,
+  "steps": [
+    {
+      "content": "\n# **Pangkalahatang ideya**\n<div align=\"center\">\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/wZZ2ipS-jZw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div>\nAng Kleros ay isang open-source online dispute protocol na gumagamit ng blockchain at crowdsourcing upang maresolba at mabigyan ng patas na hatol ang alitan sa pagitan ng dalawang partido.\n\nLayunin ng Kleros ang gumawa ng software na nagbibigay-daan upang makamtan ang hustisya at indibidwal na kalayaan. Bilang isang desentralisadong organisasyon (DAO - Decentralized Autonomous Organization), ito ay pinamamahalaan ng mismong komunidad kung saan ang mga miyembro ng komunidad ay bumoboto para sa mga desisyon na gagawin sa organisasyon.\n\nAng governance token ng Kleros ay tinatawag na PNK na maaaring i-stake at gamitin upang bumoto sa mga panukala. Ilan sa mga DApps o prudoktong gawa ng Kleros ay gumagamit rin ng Kleros Court at kasama sa mga ito ang:\n\n* [Dispute Resolver](https://resolve.kleros.io)\n* [Escrow](https://escrow.kleros.io)\n* [Proof of Humanity](https://www.proofofhumanity.id/)\n* [Linguo](https://linguo.kleros.io/)\n* [Curate](https://curate.kleros.io/)\n* [Tokens](https://tokens.kleros.io/)",
+      "stepItems": [],
+      "name": "Pangkalahatang ideya",
+      "uuid": "a863a90d-b802-48a6-96e1-8e40148bb283"
+    },
+    {
+      "content": "",
+      "stepItems": [
+        {
+          "answerKeys": [
+            "only_cat"
+          ],
+          "choices": [
+            {
+              "content": "Partidong pampulitika.",
+              "key": "dog_and_cat"
+            },
+            {
+              "content": "Decentralized exchange.",
+              "key": "dog_or_cat"
+            },
+            {
+              "content": "Proof-of-Work Protocol.",
+              "key": "only_dog"
+            },
+            {
+              "content": "Decentralized dispute resolution protocol.",
+              "key": "only_cat"
+            }
+          ],
+          "content": "Pagkatapos ng maikling introduksyon, ano ang masasabi mo tungkol sa Kleros?",
+          "type": "MultipleChoice",
+          "uuid": "88134893-d59c-4ed2-b9c0-68e6ee4bfa68"
+        }
+      ],
+      "name": "Pagsusuri",
+      "uuid": "5f04ac04-cdcf-42c1-bd76-6da3644c66df"
+    },
+    {
+      "content": "Ang Pinakion (ticker: PNK) ay ang native token ng Kleros, at ito ay ginagamit upang makalahok sa dispute resolution (halimbawa nito ang pag-stake ng PNK tokens sa Kleros court upang magkaroon ng pagkakataong mapili bilang isang hurado sa Kleros Courts) at sa pamamahala ng organisasyon o DAO (ibig sabihin, ang PNK token ay ginagamit upang makilahok sa pagboto ng mga bagong mga panukala, o mga pagbabagong gagawin sa Kleros Courts).\n* **Staking at coherence rewards**: Upang mabunot bilang hurado, kinakailangang mag-stake ng PNK tokens sa Kleros Courts. Upang magkaroon ng mas malaking tsansang mapili bilang hurado, mag-stake ng mas maraming PNK tokens. Ang mga huradong napili at bumoto ng magkakapareho o magkakaugnay sa karamihan (coherence) ay makakatanggap ng gantimpala o coherence rewards.\n* **Voting Rights**: Ginagamit ang PNK para sa pagsasagawa ng mga desisyon o panukala kaugnay sa Kleros platform. Ginagamit rin ang mekanismong ito upang pamahalaan ang mga pagbabago sa token curated list at Kleros Courts.",
+      "stepItems": [],
+      "name": "PNK Token",
+      "uuid": "56be9f50-93d2-485d-96a5-e96bdbff2866"
+    },
+    {
+      "content": "",
+      "stepItems": [
+        {
+          "answerKeys": [
+            "e9000b65",
+            "ab73b4da"
+          ],
+          "choices": [
+            {
+              "content": "Stablecoin para sa mga transaksyon.",
+              "key": "276fc5d3"
+            },
+            {
+              "content": "Para sa pagboto ng mga panukala at desisyon sa Kleros platform.",
+              "key": "e9000b65"
+            },
+            {
+              "content": "Ginagamit sa pag-stake sa Kleros Courts upang mapili bilang hurado.",
+              "key": "ab73b4da"
+            },
+            {
+              "content": "Pambayad sa gas fee sa Ethereum network.",
+              "key": "457c26a4"
+            }
+          ],
+          "content": "Saan maaring gamitin ang PNK token?\n(Pumili ng dalawang sagot.)",
+          "type": "MultipleChoice",
+          "uuid": "3e31c62e-7130-4c18-a13a-40c17a9eb1f6"
+        }
+      ],
+      "name": "Pagsusuri",
+      "uuid": "69bd0c82-083b-450e-85a8-5e0603be18a4"
+    },
+    {
+      "content": "Ginagamit ng Kleros Court ang paghatol mula sa [decentralized](https://blog.kleros.io/is-kleros-a-fair-dispute-resolution-system/) at [self-selected](https://blog.kleros.io/is-kleros-a-fair-dispute-resolution-system/) na mga hurado sa paglutas ng mga disputes sa pamamagitan ng trustless, ngunit patas at siguradong paraan. Ito ay ginawang posible sa pamamagitan ng maingat na pagpili ng mga mahahalagang disenyo ng Korte. Dahil rito, ang Kleros lamang ang tanging mapagkakatiwalaang neutral na sistema sa paglutas ng mga disputes sa Web3:\n- Ang paggamit ng sortition (aka random na pagpili) para sa pagpili ng hurado ay nakakatulong upang siguradahing walang mangyayaring sabwatan sa pagitan ng mga hurado.\n- Sa pamamagitan ng pag-apela (appeal system) ang pagsasagawa ng random na pagboto ay maiiwasan pati na ang tinatawag na [p+epsilon attacks](https://blog.ethereum.org/2015/01/28/p-epsilon-attack/).\n- Dahil sa purpose-specificity ng Kleros, naiiwasan nito ang problema tulad ng community voting fatigue.\n- Ang Kleros ay independent sa ibang DAOs. Ito ay ginagamit sa paglutas ng mga disputes dahil ito ay neutral at walang kinikilingan.\n\nAng expertise at karanasan ng Kleros community sa Web3 disputes ay walang kaparis at patuloy silang nagbibigay ng feedback sa [Coopérative Kleros](https://kleros.io/coop/) (ang pangunahing Kleros team) upang mapabuti ang teknolohiya, mga parameters at mga patakaran sa Kleros courts.",
+      "stepItems": [],
+      "name": "Bakit gumagana ang Kleros Courts",
+      "uuid": "163f92c3-ffc4-44c8-b5d5-b899bce38cde"
+    },
+    {
+      "content": "Ang dispute resolution ang isa sa mga huling natitirang sentralisado sa Web3, at nangunguna ang Kleros upang baguhin ito at magkaroon ng desentralisadong dispute resolution.\n\nNarito ang ilang mga halimbawa kung saan ginagamit ang Kleros:\n* **(DeFi) insurance claim disputes** (tingnan ang aming partnership sa [Unslashed Finance](https://blog.kleros.io/welcome-to-decentralized-insurance-kleros-x-unslashed-finance/))\n* **Curation** (tingnan ang Kleros token curated registries para sa [address tags](https://blog.kleros.io/the-kleros-decentralized-tag-registry-a-proof-of-concept-for-securing-web3/) at [tokens](https://blog.kleros.io/tokens-by-kleros-securing-uniswap-with-decentralized-lists/))\n* **Identity verification o pagpapatunay ng pagkakakilanlan** (tingnan ang [Proof of Humanity](https://www.proofofhumanity.id/)) \n* **Pagsecure ng oracle result resolutions** (tingnan ang [documentation](https://kleros.gitbook.io/docs/integrations/types-of-integrations/how-to-use-reality.eth-+-kleros-as-an-oracle) at ang [Kleros+Gnosis’s partnership](https://blog.kleros.io/kleros-x-safesnap/))\n* **Real-world arbitration** (tingnan ang halimbawa mula sa [from Mexico](https://blog.kleros.io/how-to-enforce-blockchain-dispute-resolution-in-court-the-kleros-case-in-mexico/))",
+      "stepItems": [],
+      "name": "Paggamit ng Kleros",
+      "uuid": "195ccd65-9ad4-4c8b-9d30-523d57f8d65d"
+    },
+    {
+      "content": "",
+      "stepItems": [
+        {
+          "answerKeys": [
+            "b44aa049",
+            "75e5fec7",
+            "7e2c4ef6",
+            "ee548847",
+            "b5bb2e7a",
+            "c32402c9"
+          ],
+          "choices": [
+            {
+              "content": "Pag-curate ng mga NFT collections",
+              "key": "b44aa049"
+            },
+            {
+              "content": "Bounty at job payment claims at disputes",
+              "key": "75e5fec7"
+            },
+            {
+              "content": "Pang lechon",
+              "key": "3b6d8131"
+            },
+            {
+              "content": "Social recovery ng crypto wallets",
+              "key": "7e2c4ef6"
+            },
+            {
+              "content": "Escrow",
+              "key": "c32402c9"
+            },
+            {
+              "content": "Para sa translation o pagsasalin",
+              "key": "b5bb2e7a"
+            },
+            {
+              "content": "Content moderation o pagsusuri ng mga nilalaman",
+              "key": "ee548847"
+            }
+          ],
+          "content": "Mliban sa mga nabanggit na mga halimbawa, ano pa ang pwedeng paggagamitan ng Kleros? (Pumili ng maraming sagot)",
+          "type": "MultipleChoice",
+          "uuid": "afe5e82b-0e7f-4810-ba7d-75d30fa9ca70"
+        }
+      ],
+      "name": "Pagsusuri",
+      "uuid": "4e7a88f3-ac67-4a9c-96f2-d1958ca25f10"
+    },
+    {
+      "content": "# **Sumali sa Kleros**\n\nUpang sumali sa Kleros community, i-click lamang ang mga links sa ibaba:\n\n1. **Discord** [https://discord.gg/MhXQGCyHd9](https://discord.gg/MhXQGCyHd9)\n2. **Slack** [https://slack.kleros.io/](https://slack.kleros.io/)\n3. **Telegram** [https://t.me/kleros](https://t.me/kleros)\n4. **GitHub** [https://github.com/kleros](https://github.com/kleros)\n5. **[Community developer quick-start guide](https://kleros.notion.site/kleros/Kleros-Developer-Notes-4cf727f984054a93bb718ff8dc56eaa7)** \n\nKung nais bumili ng PNK token at sumali bilang hurado sa Kleros Courts, tingnan ang mga listahan ng (decentralized) [exchanges](https://kleros.gitbook.io/docs/pnk-token) kung saan maaaring bumili. Pagkatapos bumili, tingnan ang [juror tutorial](https://kleros.gitbook.io/docs/products/court/kleros-juror-tutorial) at alamin kung paano sumali bilang hurado sa [Kleros Courts](https://court.kleros.io)!",
+      "stepItems": [],
+      "name": "Sumali sa Kleros Community!",
+      "uuid": "fdba26a9-3ff6-4967-a67d-d3832329e121"
+    }
+  ],
+  "publishStatus": "Live",
+  "socialShareImage": "ipfs://QmZZRDrdzyh7AwYTtwj44LeATgmVYbZpsRebo8KE8YDTvL",
+  "thumbnail": "ipfs://Qmdprj1VvYjzvRwV1L2uR8LoybCgzyWqi8vE9GCHNbHAxz",
+  "uuid": "kleros-onboarding-guide-filipo",
+  "key": "kleros-onboarding-guide-filipo",
+  "version": 7
+}

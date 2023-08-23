@@ -11,3 +11,6 @@
  | 7      | I'm an Arbitration Developer! 💻 | A quick intro to the Kleros arbitration and evidence standards |  [Link](markdown/i-am-arbitration-developer.md) |
  | 8      | Kleros Onboarding Guide [EN] | This is a basic guide to get acquainted with Kleros! |  [Link](markdown/kleros-onboarding-guide-en.md) |
  | 9      | Panduan Orientasi Kleros | Ini adalah panduan tentang Kleros! |  [Link](markdown/kleros-onboarding-guide-indonesia.md) |
+ | 10      | Guía de incorporación de Kleros | ¡Esta es una guía básica para familiarizarse con Kleros! |  [Link](markdown/kleros-onboarding-guide-es.md) |
+ | 11      | Gabay Para sa Kleros Onboarding  | Pangunahing gabay sa pag-aaral tungkol sa Kleros! |  [Link](markdown/kleros-onboarding-guide-filipo.md) |
+ | 12      | Kleros 入门指导 [中文】 | 入门了解 Kleros 的基本指南! |  [Link](markdown/kleros-onboarding-guide-chinese.md) |
