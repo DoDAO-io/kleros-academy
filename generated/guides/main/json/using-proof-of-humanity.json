@@ -4,7 +4,7 @@
     "introduction"
   ],
   "content": "A guide on using and onboarding users to Proof-of-Humanity",
-  "created": "2023-08-23T03:36:30.484Z",
+  "created": "2023-08-23T03:44:09.011Z",
   "guideType": "how-to",
   "key": "using-proof-of-humanity",
   "name": "I'm a Human Ambassador (dup)",
@@ -108,7 +108,7 @@
       "uuid": "529b2edd-8b3e-4c59-8155-25cb19b450e3"
     },
     {
-      "content": "Now that you have a basic understanding of what PoH is and its use cases, the next step is to learn how to prove you are human and get registered in the registry.\n\n1. First, head on over to [app.proofofhumanity.id](https://app.proofofhumanity.id/) and you’ll be greeted by a screen similar to the above.\n\n2. Next, connect your Ethereum / Web3 wallet.\n\n3. Then click on \"Submit profile\" in the top banner.\n\n4. After that, you will be asked to fill out the information required to submit a profile. Just fill out all the necessary information and read the [Registry Policy](https://ipfs.kleros.io/ipfs/QmXDiiBAizCPoLqHvcfTzuMT7uvFEe1j3s4TgoWWd4k5np/proof-of-humanity-registry-policy-v1.3.pdf).\n\n5. Once you’re done, click submit, pay the deposit, and find a voucher.\n\nNote: You will need to have a Submitter Deposit of 0.111 ETH (an amount of ETH you lock with the submission of your profile that will act as an incentive for potential challengers) which will be reimbursed once you’re successfully registered.\n\nTo make sure you get the registration right and avoid getting challenged, make sure to read this [PoH tutorial](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-of-humanity-tutorial).\n\nFor an example of how to do it right, check out [Vitalik Buterin’s](https://app.proofofhumanity.id/profile/0x1db3439a222c519ab44bb1144fc28167b4fa6ee6) profile on Proof of Humanity.",
+      "content": "Now that you have a basic understanding of what PoH is and its use cases, the next step is to learn how to prove you are human and get registered in the registry.\n\n1. First, head on over to [app.proofofhumanity.id](https://app.proofofhumanity.id/) and you’ll be greeted by a screen similar to the above.\n\n2. Next, connect your Ethereum / Web3 wallet.\n\n3. Then click on \"Submit profile\" in the top banner.\n\n4. After that, you will be asked to fill out the information required to submit a profile. Just fill out all the necessary information and read the [Registry Policy](https://ipfs.kleros.io/ipfs/QmXDiiBAizCPoLqHvcfTzuMT7uvFEe1j3s4TgoWWd4k5np/proof-of-humanity-registry-policy-v1.3.pdf).\n\n5. Once you’re done, click submit, pay the deposit, and find a voucher.\n\nNote: You will need to have a Submitter Deposit of 0.125 ETH (an amount of ETH you lock with the submission of your profile that will act as an incentive for potential challengers) which will be reimbursed once you’re successfully registered.\n\nTo make sure you get the registration right and avoid getting challenged, make sure to read this [PoH tutorial](https://kleros.gitbook.io/docs/products/proof-of-humanity/proof-of-humanity-tutorial).\n\nFor an example of how to do it right, check out [Vitalik Buterin’s](https://app.proofofhumanity.id/profile/0x1db3439a222c519ab44bb1144fc28167b4fa6ee6) profile on Proof of Humanity.",
       "name": "How to register?",
       "stepItems": [],
       "uuid": "eea0e2e9-2b57-4540-8fd6-0a03a9ec2e4f"
@@ -160,7 +160,7 @@
       "uuid": "96c90c25-7668-46f4-b60c-ecdb564ad179"
     },
     {
-      "content": "To join the PoH community, check the links below and make sure to stay active in the community:\n\n* **Discord**: https://discord.gg/3b6wAYSmMq\n* **Telegram Group (English)**: https://t.me/proofhumanity\n* **Twitter**: https://twitter.com/proofofhumanity\n\nWanna be registered on Proof of Humanity but short of funds for the deposit? We got you!\n\nSimply follow us on social media (Twitter & Discord) and get your Proof of Humanity registration crowdfunded!\n\n* **Join the PoH Crowdfunding Campaign**: https://galaxy.eco/kleros/campaign/GCHzYUtpeg\n\n",
+      "content": "To join the PoH community, check the links below and make sure to stay active in the community:\n\n* **Discord**: https://discord.gg/3b6wAYSmMq\n* **Telegram Group (English)**: https://t.me/proofhumanity\n* **Twitter**: https://twitter.com/proofofhumanity\n\nWanna be registered on Proof of Humanity but short of funds for the deposit? We got you!\n\nSimply follow us on social media (Twitter & Discord) and get your Proof of Humanity registration crowdfunded!\n\n* **Join the PoH Crowdfunding Campaign**: https://galxe.com/kleros/campaign/GCHzYUtpeg\n\n",
       "name": "Be part of the PoH community",
       "stepItems": [],
       "uuid": "02ab36ef-57a9-4833-9a55-35de8d6bac4d"

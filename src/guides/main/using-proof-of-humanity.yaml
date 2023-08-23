@@ -2,7 +2,7 @@ categories:
   - community
   - introduction
 content: A guide on using and onboarding users to Proof-of-Humanity
-created: '2023-08-23T03:36:30.484Z'
+created: '2023-08-23T03:44:09.011Z'
 guideType: how-to
 key: using-proof-of-humanity
 name: I'm a Human Ambassador (dup)
@@ -162,7 +162,7 @@ steps:
       5. Once you’re done, click submit, pay the deposit, and find a voucher.
 
 
-      Note: You will need to have a Submitter Deposit of 0.111 ETH (an amount of
+      Note: You will need to have a Submitter Deposit of 0.125 ETH (an amount of
       ETH you lock with the submission of your profile that will act as an
       incentive for potential challengers) which will be reimbursed once you’re
       successfully registered.
@@ -278,7 +278,7 @@ steps:
 
 
       * **Join the PoH Crowdfunding Campaign**:
-      https://galaxy.eco/kleros/campaign/GCHzYUtpeg
+      https://galxe.com/kleros/campaign/GCHzYUtpeg
 
     name: Be part of the PoH community
     stepItems: []
