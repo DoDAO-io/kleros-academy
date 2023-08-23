@@ -4,11 +4,11 @@
     "introduction"
   ],
   "content": "A guide on using and onboarding users to Proof-of-Humanity",
-  "created": "2023-08-23T03:44:09.011Z",
+  "created": "2023-08-23T03:44:45.777Z",
   "guideType": "how-to",
   "key": "using-proof-of-humanity",
-  "name": "I'm a Human Ambassador (dup)",
-  "publishStatus": "Draft",
+  "name": "I'm a Human Ambassador",
+  "publishStatus": "Live",
   "steps": [
     {
       "content": "# **Overview**\n<div align=\"center\">\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bVUGvCHd3w0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div>\n\n[Proof of Humanity](https://blog.kleros.io/proof-of-humanity-an-explainer/), a Sybil-resistant (=duplicate and bot-proof) registry of humans.\n\nProof of Humanity (PoH) is a social identity verification system for humans on Ethereum. PoH combines webs of trust, reverse Turing tests, and dispute resolution to create a Sybil-proof list of humans. It can be used in a variety of existing and new applications that need identity solutions. Each user will need to prove they are real humans and not duplicate/fake/bot accounts. \n\nRegistered humans will accrue 1 [UBI Token](https://blog.kleros.io/introducing-ubi-universal-basic-income-for-humans/) every hour that will get streamed directly to their wallet address. The UBI Token is a universal income currency which is accrued by all profiles successfully registered in the Proof of Humanity registry.\n",
