@@ -4,18 +4,11 @@
     "introduction"
   ],
   "content": "A guide on using and onboarding users to Proof-of-Humanity",
-  "created": "2023-01-16T08:15:21.814Z",
-  "guideIntegrations": {
-    "discordRoleIds": [],
-    "projectGalaxyCredentialId": "185386108566806528",
-    "projectGalaxyOatMintUrl": "https://galaxy.eco/kleros/campaign/GC8qSUtvsZ",
-    "projectGalaxyOatPassingCount": 2
-  },
+  "created": "2023-08-23T03:36:30.484Z",
   "guideType": "how-to",
   "key": "using-proof-of-humanity",
-  "name": "I'm a Human Ambassador",
-  "publishStatus": "Live",
-  "showIncorrectOnCompletion": true,
+  "name": "I'm a Human Ambassador (dup)",
+  "publishStatus": "Draft",
   "steps": [
     {
       "content": "# **Overview**\n<div align=\"center\">\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bVUGvCHd3w0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div>\n\n[Proof of Humanity](https://blog.kleros.io/proof-of-humanity-an-explainer/), a Sybil-resistant (=duplicate and bot-proof) registry of humans.\n\nProof of Humanity (PoH) is a social identity verification system for humans on Ethereum. PoH combines webs of trust, reverse Turing tests, and dispute resolution to create a Sybil-proof list of humans. It can be used in a variety of existing and new applications that need identity solutions. Each user will need to prove they are real humans and not duplicate/fake/bot accounts. \n\nRegistered humans will accrue 1 [UBI Token](https://blog.kleros.io/introducing-ubi-universal-basic-income-for-humans/) every hour that will get streamed directly to their wallet address. The UBI Token is a universal income currency which is accrued by all profiles successfully registered in the Proof of Humanity registry.\n",
@@ -51,7 +44,8 @@
           ],
           "content": "What would you say Proof of Humanity is?",
           "type": "MultipleChoice",
-          "uuid": "e424345f-4f62-4061-8c4a-808326f4f279"
+          "uuid": "e424345f-4f62-4061-8c4a-808326f4f279",
+          "explanation": null
         }
       ],
       "uuid": "da631161-d381-41a4-af2d-cf278880cb40"
@@ -107,7 +101,8 @@
           ],
           "content": "What are some use cases of Proof of Humanity? (Select multiple answers)\n",
           "type": "MultipleChoice",
-          "uuid": "08b9a8da-c6b7-4627-a308-dbc8eff7c53c"
+          "uuid": "08b9a8da-c6b7-4627-a308-dbc8eff7c53c",
+          "explanation": null
         }
       ],
       "uuid": "529b2edd-8b3e-4c59-8155-25cb19b450e3"
@@ -152,7 +147,8 @@
           ],
           "content": "How many days does a profile stay in the “Pending Registration” phase?",
           "type": "MultipleChoice",
-          "uuid": "e588c690-9feb-4957-8109-e002c2f7d0f3"
+          "uuid": "e588c690-9feb-4957-8109-e002c2f7d0f3",
+          "explanation": null
         }
       ],
       "uuid": "f79ca0fd-581b-4058-99c4-b7f2c54ac228"
@@ -171,5 +167,6 @@
     }
   ],
   "thumbnail": "ipfs://QmZwcenkF8yUgUu4D2jBUPvMvABuU7Y54PRXA1sCpBs7K6",
-  "uuid": "44ad36e1-739e-4da8-aa65-7f81bc333a2e"
+  "uuid": "using-proof-of-humanity",
+  "version": 1
 }

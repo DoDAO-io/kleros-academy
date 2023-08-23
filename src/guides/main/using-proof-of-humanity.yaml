@@ -2,17 +2,11 @@ categories:
   - community
   - introduction
 content: A guide on using and onboarding users to Proof-of-Humanity
-created: '2023-01-16T08:15:21.814Z'
-guideIntegrations:
-  discordRoleIds: []
-  projectGalaxyCredentialId: '185386108566806528'
-  projectGalaxyOatMintUrl: https://galaxy.eco/kleros/campaign/GC8qSUtvsZ
-  projectGalaxyOatPassingCount: 2
+created: '2023-08-23T03:36:30.484Z'
 guideType: how-to
 key: using-proof-of-humanity
-name: I'm a Human Ambassador
-publishStatus: Live
-showIncorrectOnCompletion: true
+name: I'm a Human Ambassador (dup)
+publishStatus: Draft
 steps:
   - content: >
       # **Overview**
@@ -65,6 +59,7 @@ steps:
         content: What would you say Proof of Humanity is?
         type: MultipleChoice
         uuid: e424345f-4f62-4061-8c4a-808326f4f279
+        explanation: null
     uuid: da631161-d381-41a4-af2d-cf278880cb40
   - content: >
       [Proof of Humanity](https://proofofhumanity.id/) is a system combining
@@ -139,6 +134,7 @@ steps:
           answers)
         type: MultipleChoice
         uuid: 08b9a8da-c6b7-4627-a308-dbc8eff7c53c
+        explanation: null
     uuid: 529b2edd-8b3e-4c59-8155-25cb19b450e3
   - content: >-
       Now that you have a basic understanding of what PoH is and its use cases,
@@ -230,6 +226,7 @@ steps:
         content: How many days does a profile stay in the “Pending Registration” phase?
         type: MultipleChoice
         uuid: e588c690-9feb-4957-8109-e002c2f7d0f3
+        explanation: null
     uuid: f79ca0fd-581b-4058-99c4-b7f2c54ac228
   - content: >-
       PoH DAO is looking forward to onboarding more humans into its growing
@@ -287,4 +284,5 @@ steps:
     stepItems: []
     uuid: 02ab36ef-57a9-4833-9a55-35de8d6bac4d
 thumbnail: ipfs://QmZwcenkF8yUgUu4D2jBUPvMvABuU7Y54PRXA1sCpBs7K6
-uuid: 44ad36e1-739e-4da8-aa65-7f81bc333a2e
+uuid: using-proof-of-humanity
+version: 1
