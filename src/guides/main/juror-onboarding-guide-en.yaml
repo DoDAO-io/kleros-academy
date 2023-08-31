@@ -1,14 +1,11 @@
 categories: []
 content: Foundational guide to becoming a juror in Kleros
-created: '2023-05-03T10:16:34.114Z'
+created: '2023-08-31T14:20:00.389Z'
 guideType: level-up
-guideIntegrations:
-  discordRoleIds: [ ]
-  projectGalaxyCredentialId: '179710443003748352'
-  projectGalaxyOatMintUrl: https://galaxy.eco/kleros/campaign/GCYgSUtvdV
-  projectGalaxyOatPassingCount: 3
+key: juror-onboarding-guide-en
 name: Juror Onboarding Guide (en)
-showIncorrectOnCompletion: true
+postSubmissionStepContent: Congrats on completing the Kleros Juror onboarding guide!
+publishStatus: Live
 steps:
   - content: >-
       As you might already have learnt in our [community onboarding
@@ -43,8 +40,8 @@ steps:
       case and challenge the judgment of the jury in a case drastically
       increases the security of the court against random voting, bribes and
       collusion.
-    stepItems: [ ]
     name: The role of jurors in Kleros
+    stepItems: []
     uuid: 24ea0e84-196a-4016-8cb6-c2fd566629fd
   - content: >-
       Taking part as a juror is easy - simply buy some **Pinakion/PNK** tokens,
@@ -70,8 +67,8 @@ steps:
 
       4. Overview of the [available courts in
       Kleros](https://kleros.gitbook.io/docs/products/court)
-    stepItems: [ ]
     name: Getting started as a juror
+    stepItems: []
     uuid: b90c9710-09fc-4bf8-bd24-49e1183677fb
   - content: >
       All disputes initiated in Kleros go through these 5 stages:
@@ -96,13 +93,14 @@ steps:
       ![Diagram showing the processes in Kleros
       Court](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LPbPWuMtwBOvW0iuxyw%2Fuploads%2FanPuZOrP5JrAUT0KHt1k%2Fimage.png?alt=media&token=67762a69-d1f1-46fd-8c36-6c05fa54afc7
       "Kleros court processes visualised")
-    stepItems: [ ]
     name: Processes of Kleros Court
+    stepItems: []
     uuid: 7e2d315a-88d6-460d-8c9b-fb6c565ccbe5
   - content: |
       Great! 
 
       Now let's test your knowledge of the things discussed so far!
+    name: 'Evaluation #1'
     stepItems:
       - answerKeys:
           - a1fef3ee
@@ -112,35 +110,28 @@ steps:
               I need to have acquired some PNK tokens and staked them in the
               Kleros Court in question.
             key: a1fef3ee
-
           - content: >-
               I need to have submitted my educational qualifications for
               verification.
             key: c97256d0
-
           - content: I need to be whitelisted by the disputants and/or Kleros.
             key: 4029efe4
-
           - content: >-
               I need to have been drawn as a juror by the randomized drawing
               process.
             key: a708f268
-
           - content: The dispute needs to take place during my birthday month.
             key: 0d5e0e79
-
           - content: >-
               I cannot be part of the organisation that is involved in the
               disputes.
             key: d534bdf3
-
         content: >-
           Which of the following options describe how you get selected to be
           part of the jury of a dispute?
-        
         type: MultipleChoice
         uuid: c502bfaf-188e-4a18-aace-b321841065f5
-    name: 'Evaluation #1'
+        explanation: null
     uuid: 8facc746-65b3-49c5-94fb-1b77cc1a5dae
   - content: >-
       The most important document present in every dispute is the **primary
@@ -169,8 +160,8 @@ steps:
 
       -
       [Proof-of-Humanity](https://ipfs.kleros.io/ipfs/QmXDiiBAizCPoLqHvcfTzuMT7uvFEe1j3s4TgoWWd4k5np/proof-of-humanity-registry-policy-v1.3.pdf)
-    stepItems: [ ]
     name: Reviewing the 'Primary Document'
+    stepItems: []
     uuid: 0188a2cb-c349-4662-8ac5-259b96996a33
   - content: >-
       Evidences are documents uploaded in support of a particular outcome to a
@@ -208,8 +199,8 @@ steps:
       be insightful to know what the possible sources of evidences are in a
       case, and which categories of evidence (submitters) are or are not
       represented.
-    stepItems: [ ]
     name: Reviewing evidences
+    stepItems: []
     uuid: ff692e83-355e-4712-9a30-405993b41e26
   - content: >+
       In the Kleros system, a vote is **coherent** if it coincides with the
@@ -252,8 +243,8 @@ steps:
       minority.
 
 
-    stepItems: [ ]
     name: Voting coherently
+    stepItems: []
     uuid: 46402b9d-449a-44aa-a6f7-0855d6e09fd6
   - content: >-
       As shown in the diagrams in the section about the processes in Kleros
@@ -270,10 +261,11 @@ steps:
       vindicate yourself and stand a chance to win a higher reward (e.g.
       coherence reward plus the deposit & stakes of those who supported the
       opposing side).
-    stepItems: [ ]
     name: Appealing rulings
+    stepItems: []
     uuid: 83b742ae-883e-47eb-ab03-5fa5180dfe8d
   - content: ''
+    name: 'Evaluation #2'
     stepItems:
       - answerKeys:
           - 94d80c17
@@ -284,66 +276,57 @@ steps:
               I can do nothing in a case I'm drawn into (e.g. not vote at all)
               and face no consequences.
             key: a0f375b8
-
           - content: >-
               If I voted 'incoherently' (e.g. in the minority) after the voting
               phase of a round has concluded (but appeal phase still ongoing), I
               would have already been slashed.
             key: 63d71ef2
-
           - content: >-
               If I voted 'coherently' (e.g. in the majority) after the final
               voting and appeal phase of a case have concluded, I will be safe
               from slashing and eligible for a coherence reward.
             key: b9ee370e
-
           - content: >-
               Voting 'Refuse to arbitrate' is considered 'voting' and I will not
               be slashed for inaction.
             key: 94d80c17
-
           - content: >-
               As a coherent voter, I will be eligible for a reward in ETH (on
               Ethereum), and potentially an additional portion in PNK from the
               slashed stakes of incoherent voters.
             key: 1036be12
-
         content: >-
           Which of the following are possible outcomes for a juror after a case
           concludes?
-        
         type: MultipleChoice
         uuid: 2cb8f323-ee67-499d-af9b-028401dcedbd
+        explanation: null
       - answerKeys:
           - b29b99e6
           - 74c45a6e
         choices:
           - content: Only the jurors in the current round can appeal a case.
             key: 3f4b3d08
-
           - content: >-
               When a case is appealed, the same jurors from the previous round
               are drawn in to vote again.
             key: 4acf5f59
-
           - content: >-
               If an appeal is started and only one side funds the appeal, that
               side automatically wins the dispute regardless of the ruling in
               the last round.
             key: b29b99e6
-
           - content: >-
               An appeal can be crowdfunded, with potential winnings from the
               dispute distributed to the.crowd funders proportionally to the
               size of their contributions.
             key: 74c45a6e
-
         content: >-
           Which of the following are true regarding the appeal mechanism of
           Kleros Court?
-        
         type: MultipleChoice
         uuid: 8aa1ad60-e217-4aa3-accf-8f69f9c741dc
+        explanation: null
       - answerKeys:
           - 0164345f
           - 4d92f27c
@@ -353,29 +336,24 @@ steps:
               Ignoring the merits of a case if the subject matter already
               violates the rules of the court in question.
             key: 0164345f
-
           - content: >-
               Going to social media to find other jurors, and base your vote on
               the most popular opinion of the crowd.
             key: 103b52e4
-
           - content: Basing your vote on a published bribe by one of the disputants.
             key: b041c11c
-
           - content: >-
               Voting to reject a 'reasonable' claim because it failed to follow
               procedures laid out in the policy/primary document.
             key: 4d92f27c
-
           - content: >-
               Basing your vote on balanced discussions about the merits of a
               case in a Kleros community chat.
             key: 477c9d7e
-
         content: Which of these are good reasons to base your vote on?
         type: MultipleChoice
         uuid: f20ef7e5-e1e0-4861-9595-2cf9524c9414
-    name: 'Evaluation #2'
+        explanation: null
     uuid: 11bbbaf3-8c6a-4f36-8661-7fc9ec515ddc
   - content: >-
       Congrats on making it to the end of this juror onboarding guide! 
@@ -389,13 +367,9 @@ steps:
       Once you feel confident enough it's time to contribute to decentralized
       justice with your newfound knowledge as a juror in [Kleros
       Court](https://court.kleros.io)!
-    stepItems: [ ]
     name: Hurray, you are done!
-    
+    stepItems: []
     uuid: 60556d25-faad-4283-8da5-d82b00b16244
-publishStatus: Live
-socialShareImage: ''
 thumbnail: ipfs://QmYaLrrevNbgjo2QinGp24fh2WCXWuUbPoHzic5LdTxJ23
 uuid: juror-onboarding-guide-en
-key: juror-onboarding-guide-en
-version: 37
+version: 1
