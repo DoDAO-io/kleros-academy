@@ -3,28 +3,22 @@
     "developer",
     "introduction"
   ],
-  "postSubmissionStepContent": "",
   "content": "A quick intro to the Kleros arbitration and evidence standards",
-  "created": "2023-05-03T10:16:34.114Z",
-  "guideIntegrations": {
-    "discordRoleIds": [],
-    "discordWebhook": "",
-    "projectGalaxyCredentialId": "185385273539600384",
-    "projectGalaxyOatMintUrl": "https://galaxy.eco/kleros/campaign/GCYuSUtgAL",
-    "projectGalaxyOatPassingCount": 7
-  },
+  "created": "2023-10-02T14:50:54.230Z",
   "guideType": "how-to",
+  "key": "i-am-arbitration-developer",
   "name": "I'm an Arbitration Developer! 💻",
-  "showIncorrectOnCompletion": true,
+  "publishStatus": "Live",
   "steps": [
     {
       "content": "Kleros is an open-source online dispute resolution protocol that uses blockchain, crowdsourcing, and game theoretical incentives to fairly adjudicate disputes.\n\nTo date, Kleros has been used to arbitrate insurance claims, curated registries, escrow payment disputes, oracle answers, and more.\n\nThis is done through an arbitration standard wherein disputes that occur in applications (the so-called 'Arbitrable' dApps in Kleros terminology) are sent to the Kleros Court. From here, jurors are drawn randomly and evidence is submitted to be assessed alongside the application's policy. Once the jury comes to a decision, the court sends a ruling message back to the application where the dispute originated.\n",
-      "stepItems": [],
       "name": "Introduction",
+      "stepItems": [],
       "uuid": "a2019718-3d99-467c-8a2e-1a44d505c0af"
     },
     {
       "content": "",
+      "name": "Evaluation",
       "stepItems": [
         {
           "answerKeys": [
@@ -51,7 +45,8 @@
           ],
           "content": "**Based on the intro, which of the following can be considered use cases for Kleros?**",
           "type": "MultipleChoice",
-          "uuid": "72211053-1549-43d2-b9ab-09d5b72f856f"
+          "uuid": "72211053-1549-43d2-b9ab-09d5b72f856f",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -77,20 +72,21 @@
           ],
           "content": "**What is the role of Kleros Court according to the arbitration standard outlined above?**",
           "type": "SingleChoice",
-          "uuid": "4665e07f-f639-4e93-b6cd-1e678cbe2e00"
+          "uuid": "4665e07f-f639-4e93-b6cd-1e678cbe2e00",
+          "explanation": null
         }
       ],
-      "name": "Evaluation",
       "uuid": "d260b9f9-b5b8-4146-be5d-2f5930c5ab4e"
     },
     {
       "content": "Arbitrable applications most often follow what's known as the Request-Challenge workflow; users  submit requests in a permissionless manner, which are '**optimistically**' accepted as valid/correct/justified after a certain amount of time has passed unless challenged. \n\nThis workflow reduces the dependence on the participation of the parties involved for the correct execution of the agreement baked into the Arbitrable contract, as well as minimises the number of transactions needed to execute an agreement.\n\n### Here are a few examples of how it works!\n\n- **In Insurance** - Users of an insurance protocol can submit a claim request directly to the smart contracts managing the claim payouts. Claims are automatically deemed valid and consistent with the protocol's policy (and thus paid out), unless other users step in to challenge this submission by placing a deposit and providing evidence for ineligibility to the jury with reference to the relevant insurance policies. \n\n- **In Curation** - An entry submitted to a curated list automatically gets registered after a period of time, unless a user steps into challenge the entry, providing arguments/evidence showing non-compliance with the listing criteria of the list.\n\n- **In Escrow Payments** - A freelancer submits work to a client and is able to claim payment from the escrow if nobody (in this case probably the client) does not dispute the payment within a certain amount of time. To create a dispute, the user escalates the case to Kleros Court, citing why the work of the freelancer has not fulfilled the terms of the trade as established at the start of the contract.",
-      "stepItems": [],
       "name": "Request-Challenger Workflow",
+      "stepItems": [],
       "uuid": "93e0bd95-b469-4076-9373-62d35ca65013"
     },
     {
       "content": "",
+      "name": "Evaluation",
       "stepItems": [
         {
           "answerKeys": [
@@ -120,26 +116,27 @@
           ],
           "content": "**Which of the following workflows complies with the Request-Challenge model?**",
           "type": "SingleChoice",
-          "uuid": "c829d134-7de9-4aa9-b2c9-c26d1357e008"
+          "uuid": "c829d134-7de9-4aa9-b2c9-c26d1357e008",
+          "explanation": null
         }
       ],
-      "name": "Evaluation",
       "uuid": "ffa24b6c-8c9d-435e-babf-2ea81850fdf1"
     },
     {
       "content": "## Arbitrable vs Arbitrator\n\n![How Kleros Works](https://3482524208-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LPbPWuMtwBOvW0iuxyw%2Fuploads%2Fgit-blob-8d377e7918f3509618161378338a8cfeacfcf2b7%2Faa1%20(2).jpg?alt=media)\n\nAs stated in the ERC-792 arbitration standard, arbitrable applications must define the actions to be taken when a ruling is received from the arbitrator. To do this, the arbitrable side must implement the logic for the `rule` function and emit a `Ruling` event. It is also the responsibility of the arbitrable application to call the `createDispute` function from the arbitrator's interface.\n\nFunctions for the creation of disputes and appeals are defined in the arbitrator interface, as well as the corresponding view functions required to compute appeal cost and appeal period. Additional view functions defined in this interface are also responsible for returning the status of a dispute and the current ruling. When the jury comes to a decision, the arbitrator calls the `rule` function defined in the arbitrable interface.\n\n## Evidence vs MetaEvidence\n\n![ERC-1497](https://3482524208-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LPbPWuMtwBOvW0iuxyw%2Fuploads%2Fgit-blob-6ad9498efd07d5375b73728d30f2fde5419aa893%2Fimage%20(7)%20(2)%20(2)%20(2)%20(2)%20(2)%20(2).png?alt=media)\n\nThe ERC-1497 evidence standard is rather simple, consisting of a single interface housing three events - `MetaEvidence`, `Evidence`, and `Dispute`.  MetaEvidence pertains to the information about a dispute; the agreement, parties involved, what needs to be decided, ruling options, and so on. While Evidence is a piece of information to support a proposition on either side of an argument. The Dispute event present in the interface emits the arbitrator of the contract, the ID of the dispute, the ID of the MetaEvidence for the dispute, and the ID for the evidence group linked to the dispute.",
-      "stepItems": [],
       "name": "Technical Interfacing",
+      "stepItems": [],
       "uuid": "3514d4ed-1d20-445b-942e-09e35e9e5834"
     },
     {
       "content": "## Technical Details\n\n### Helpful Links:\n- [Arbitrable Interface](https://github.com/kleros/erc-792/blob/master/contracts/IArbitrable.sol)\n- [Arbitrator Interface](https://github.com/kleros/erc-792/blob/master/contracts/IArbitrator.sol)\n- [Evidence Interface](https://github.com/kleros/erc-792/blob/master/contracts/erc-1497/IEvidence.sol)\n\n### ERC-792 Functions:\n- `rule()`\n- `createDispute()`\n- `appeal()`\n- `arbitrationCost()`\n- `appealCost()`\n- `appealPeriod()`\n- `disputeStatus()`\n- `currentRuling()`\n\n### ERC-792 Events:\n- DisputeCreation\n- AppealPossible\n- AppealDecision\n- Ruling\n\n### ERC-1497 Events:\n- Evidence\n- MetaEvidence\n- Dispute",
-      "stepItems": [],
       "name": "ERC-792 and ERC-1497",
+      "stepItems": [],
       "uuid": "2026d6da-fe2e-47c9-8a4e-4d7622b006ad"
     },
     {
       "content": "You’ve made it to the home stretch! Here’s one last test to tie everything together, starting with a few easy questions to warm up and ramping up in difficulty as you go along.\n",
+      "name": "Long Quiz",
       "stepItems": [
         {
           "answerKeys": [
@@ -165,7 +162,8 @@
           ],
           "content": "**1. Which statement best describes Kleros?**",
           "type": "SingleChoice",
-          "uuid": "6dc55146-8a1a-4575-84d4-7df7306eff1a"
+          "uuid": "6dc55146-8a1a-4575-84d4-7df7306eff1a",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -191,7 +189,8 @@
           ],
           "content": "**2. Who is responsible for adjudicating disputes sent to the Kleros Court?**",
           "type": "SingleChoice",
-          "uuid": "192c6767-86aa-47d2-922d-cff692357f1e"
+          "uuid": "192c6767-86aa-47d2-922d-cff692357f1e",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -217,7 +216,8 @@
           ],
           "content": "**3. Which function belongs to the Arbitrable Interface?**",
           "type": "SingleChoice",
-          "uuid": "c7d99792-6f3a-4300-898b-3a7942ae017f"
+          "uuid": "c7d99792-6f3a-4300-898b-3a7942ae017f",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -243,7 +243,8 @@
           ],
           "content": "**4. Which event belongs to the Arbitrator Interface?**",
           "type": "SingleChoice",
-          "uuid": "43def22b-e278-4d5d-ae1f-37177dab1df9"
+          "uuid": "43def22b-e278-4d5d-ae1f-37177dab1df9",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -269,7 +270,8 @@
           ],
           "content": "**5. Which statement most acurately describes the difference between Evidence and MetaEvidence?**",
           "type": "SingleChoice",
-          "uuid": "2f3ebf9b-23b6-441b-aadd-e26e42661da2"
+          "uuid": "2f3ebf9b-23b6-441b-aadd-e26e42661da2",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -287,7 +289,8 @@
           ],
           "content": "**6. The Arbitrator interface defines the event to be emitted when a ruling is given. True or false?**",
           "type": "SingleChoice",
-          "uuid": "6947f39b-0c4d-4126-a408-3dcb54f27155"
+          "uuid": "6947f39b-0c4d-4126-a408-3dcb54f27155",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -305,7 +308,8 @@
           ],
           "content": "**7. The Arbitrable interface defines the view function for returning the status of a dispute. True or false?**",
           "type": "SingleChoice",
-          "uuid": "05a43a5a-75c7-49a6-a1c2-a2037c23e27c"
+          "uuid": "05a43a5a-75c7-49a6-a1c2-a2037c23e27c",
+          "explanation": null
         },
         {
           "answerKeys": [
@@ -323,23 +327,20 @@
           ],
           "content": "**8. The Arbitrable interface defines the function to create disputes while the Arbitrator interface defines the function to take a ruling. True or false?**",
           "type": "SingleChoice",
-          "uuid": "7b72cf6e-2dcd-4309-9b70-9c0b2bd44c53"
+          "uuid": "7b72cf6e-2dcd-4309-9b70-9c0b2bd44c53",
+          "explanation": null
         }
       ],
-      "name": "Long Quiz",
       "uuid": "39111982-30b4-41d5-ba35-379357cca2e6"
     },
     {
       "content": "Congratulations, you made it to the end of this guide! Whenever you’re ready to take the next step in bringing justice to the decentralised world, head over to our [Integration Guide](https://kleros.gitbook.io/docs/integrations/overview) for an in-depth look at how to build and ship your first arbitrable dApp. \n\n- [Link to Full ERC-792 Documentation](https://developer.kleros.io/en/latest/index.html)\n- [Link to Full ERC-1497 Documentation](https://developer.kleros.io/en/latest/erc-1497.html)",
-      "stepItems": [],
       "name": "🎉🎉🎉",
+      "stepItems": [],
       "uuid": "46002fef-4f95-4b16-a97d-296e84f92d4e"
     }
   ],
-  "publishStatus": "Live",
-  "socialShareImage": "",
   "thumbnail": "ipfs://QmbfpPewthnczxaY3TALHef53xKjBKrACj91BSMfmrYn65",
   "uuid": "i-am-arbitration-developer",
-  "key": "i-am-arbitration-developer",
-  "version": 21
+  "version": 1
 }

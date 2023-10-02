@@ -1,18 +1,12 @@
 categories:
   - developer
   - introduction
-postSubmissionStepContent: ''
 content: A quick intro to the Kleros arbitration and evidence standards
-created: '2023-05-03T10:16:34.114Z'
-guideIntegrations:
-  discordRoleIds: []
-  discordWebhook: ''
-  projectGalaxyCredentialId: '185385273539600384'
-  projectGalaxyOatMintUrl: https://galaxy.eco/kleros/campaign/GCYuSUtgAL
-  projectGalaxyOatPassingCount: 7
+created: '2023-10-02T14:50:54.230Z'
 guideType: how-to
+key: i-am-arbitration-developer
 name: I'm an Arbitration Developer! 💻
-showIncorrectOnCompletion: true
+publishStatus: Live
 steps:
   - content: >
       Kleros is an open-source online dispute resolution protocol that uses
@@ -30,11 +24,11 @@ steps:
       evidence is submitted to be assessed alongside the application's policy.
       Once the jury comes to a decision, the court sends a ruling message back
       to the application where the dispute originated.
-    stepItems: []
     name: Introduction
-
+    stepItems: []
     uuid: a2019718-3d99-467c-8a2e-1a44d505c0af
   - content: ''
+    name: Evaluation
     stepItems:
       - answerKeys:
           - dog_or_cat
@@ -42,45 +36,35 @@ steps:
         choices:
           - content: Minting NFTs
             key: dog_and_cat
-
           - content: Settling Payment Disputes
             key: dog_or_cat
-
           - content: Yield Farming
             key: only_dog
-
           - content: Token List Curation
             key: only_cat
-
         content: >-
           **Based on the intro, which of the following can be considered use
           cases for Kleros?**
-
         type: MultipleChoice
         uuid: 72211053-1549-43d2-b9ab-09d5b72f856f
+        explanation: null
       - answerKeys:
           - 8815ee4f
         choices:
           - content: To write the policy for an application
             key: 0beb2494
-
           - content: To submit evidence for court cases
             key: f616c13f
-
           - content: To draw jurors and submit a ruling
             key: 8815ee4f
-
           - content: A platform to buy and sell PNK tokens
             key: 69de1dea
-
         content: >-
           **What is the role of Kleros Court according to the arbitration
           standard outlined above?**
-
         type: SingleChoice
         uuid: 4665e07f-f639-4e93-b6cd-1e678cbe2e00
-    name: Evaluation
-
+        explanation: null
     uuid: d260b9f9-b5b8-4146-be5d-2f5930c5ab4e
   - content: >-
       Arbitrable applications most often follow what's known as the
@@ -118,11 +102,11 @@ steps:
       create a dispute, the user escalates the case to Kleros Court, citing why
       the work of the freelancer has not fulfilled the terms of the trade as
       established at the start of the contract.
-    stepItems: []
     name: Request-Challenger Workflow
-
+    stepItems: []
     uuid: 93e0bd95-b469-4076-9373-62d35ca65013
   - content: ''
+    name: Evaluation
     stepItems:
       - answerKeys:
           - d828831e
@@ -131,37 +115,30 @@ steps:
               Users deposit stablecoins into a protocol and are rewarded with an
               interest bearing token.
             key: 0d82398c
-
           - content: >-
               Users provide liquidity to a token pool in exchange for a portion
               of the trading fees in this pool.
             key: 8755b79f
-
           - content: >-
               A user submits their profile to a Sybil-resistant registry of
               humans. Another user sees that the submission does not comply with
               the policy of the registry and challenges the entry.
             key: d828831e
-
           - content: >-
               An artist auctions their piece at a given floor price and the
               buyer who places the highest bid by the end of the auction period
               receives the artwork.
             key: 42c13fc7
-
           - content: >-
               Funds locked in a escrow contract always requires active action
               from the payer to release the funds to the payee.
             key: d6fcf97b
-
         content: >-
           **Which of the following workflows complies with the Request-Challenge
           model?**
-
         type: SingleChoice
         uuid: c829d134-7de9-4aa9-b2c9-c26d1357e008
-    name: Evaluation
-
+        explanation: null
     uuid: ffa24b6c-8c9d-435e-babf-2ea81850fdf1
   - content: >-
       ## Arbitrable vs Arbitrator
@@ -202,9 +179,8 @@ steps:
       emits the arbitrator of the contract, the ID of the dispute, the ID of the
       MetaEvidence for the dispute, and the ID for the evidence group linked to
       the dispute.
-    stepItems: []
     name: Technical Interfacing
-
+    stepItems: []
     uuid: 3514d4ed-1d20-445b-942e-09e35e9e5834
   - content: >-
       ## Technical Details
@@ -259,93 +235,77 @@ steps:
       - MetaEvidence
 
       - Dispute
-    stepItems: []
     name: ERC-792 and ERC-1497
-
+    stepItems: []
     uuid: 2026d6da-fe2e-47c9-8a4e-4d7622b006ad
   - content: >
       You’ve made it to the home stretch! Here’s one last test to tie everything
       together, starting with a few easy questions to warm up and ramping up in
       difficulty as you go along.
+    name: Long Quiz
     stepItems:
       - answerKeys:
           - 35f8b1ef
         choices:
           - content: A marketplace for hiring lawyers fluent in blockchain technology.
             key: bbc6bf30
-
           - content: An automated market maker
             key: 7c2de7bd
-
           - content: A decentralised dispute resolution protocol
             key: 35f8b1ef
-
           - content: A platform for buying and selling NFTs
             key: 580d2f45
-
         content: '**1. Which statement best describes Kleros?**'
-
         type: SingleChoice
         uuid: 6dc55146-8a1a-4575-84d4-7df7306eff1a
+        explanation: null
       - answerKeys:
           - 3fae7d4e
         choices:
           - content: A group of DAOs pre-selected by the Kleros Cooperative.
             key: 1e1d9e27
-
           - content: A single entity granted judicial power through Kleros governance.
             key: efd177b1
-
           - content: Members of a nation state where the dispute originated from.
             key: 4113108f
-
           - content: A crowdsourced jury drawn at random.
             key: 3fae7d4e
-
         content: >-
           **2. Who is responsible for adjudicating disputes sent to the Kleros
           Court?**
-
         type: SingleChoice
         uuid: 192c6767-86aa-47d2-922d-cff692357f1e
+        explanation: null
       - answerKeys:
           - 91bd296e
         choices:
           - content: appealCost()
             key: e6f929c3
-
           - content: createDispute()
             key: 8485beae
-
           - content: disputeStatus()
             key: 2a1b952e
-
           - content: rule()
             key: 91bd296e
-
         content: '**3. Which function belongs to the Arbitrable Interface?**'
-
         type: SingleChoice
         uuid: c7d99792-6f3a-4300-898b-3a7942ae017f
+        explanation: null
       - answerKeys:
           - 0e4df4c6
         choices:
           - content: Dispute
             key: ed5cdcce
-
           - content: Ruling
             key: 177d795e
-
           - content: AppealPossible
             key: 0e4df4c6
-
           - content: Evidence
             key: 5b914744
-
         content: '**4. Which event belongs to the Arbitrator Interface?**'
-
         type: SingleChoice
         uuid: 43def22b-e278-4d5d-ae1f-37177dab1df9
+        explanation: null
       - answerKeys:
           - 83d6985b
         choices:
@@ -353,77 +313,65 @@ steps:
               MetaEvidence is the policy of a decentralised application while
               Evidence contains information about a dispute.
             key: 544409ed
-
           - content: >-
               MetaEvidence contains information about the evidence group and
               arbitrator of a dispute while Evidence is the policy of a
               decentralised application.
             key: 5c8ec8b0
-
           - content: >-
               Evidence are pieces of information that support propositions to
               either side of a dispute, while MetaEvidence contains all the
               relevant information about the dispute itself including parties
               involved and ruling options.
             key: 83d6985b
-
           - content: None of the above.
             key: 0cb367c4
-
         content: >-
           **5. Which statement most acurately describes the difference between
           Evidence and MetaEvidence?**
-
         type: SingleChoice
         uuid: 2f3ebf9b-23b6-441b-aadd-e26e42661da2
+        explanation: null
       - answerKeys:
           - 5ce883af
         choices:
           - content: 'True'
             key: 26cbaa40
-
           - content: 'False'
             key: 5ce883af
-
         content: >-
           **6. The Arbitrator interface defines the event to be emitted when a
           ruling is given. True or false?**
-
         type: SingleChoice
         uuid: 6947f39b-0c4d-4126-a408-3dcb54f27155
+        explanation: null
       - answerKeys:
           - cdf8dbe1
         choices:
           - content: 'False'
             key: cdf8dbe1
-
           - content: 'True'
             key: c5c5b777
-
         content: >-
           **7. The Arbitrable interface defines the view function for returning
           the status of a dispute. True or false?**
-
         type: SingleChoice
         uuid: 05a43a5a-75c7-49a6-a1c2-a2037c23e27c
+        explanation: null
       - answerKeys:
           - 0b43e522
         choices:
           - content: 'True'
             key: 9ee6e741
-
           - content: 'False'
             key: 0b43e522
-
         content: >-
           **8. The Arbitrable interface defines the function to create disputes
           while the Arbitrator interface defines the function to take a ruling.
           True or false?**
-
         type: SingleChoice
         uuid: 7b72cf6e-2dcd-4309-9b70-9c0b2bd44c53
-    name: Long Quiz
-
+        explanation: null
     uuid: 39111982-30b4-41d5-ba35-379357cca2e6
   - content: >-
       Congratulations, you made it to the end of this guide! Whenever you’re
@@ -438,13 +386,9 @@ steps:
 
       - [Link to Full ERC-1497
       Documentation](https://developer.kleros.io/en/latest/erc-1497.html)
-    stepItems: []
     name: 🎉🎉🎉
-
+    stepItems: []
     uuid: 46002fef-4f95-4b16-a97d-296e84f92d4e
-publishStatus: Live
-socialShareImage: ''
 thumbnail: ipfs://QmbfpPewthnczxaY3TALHef53xKjBKrACj91BSMfmrYn65
 uuid: i-am-arbitration-developer
-key: i-am-arbitration-developer
-version: 21
+version: 1
