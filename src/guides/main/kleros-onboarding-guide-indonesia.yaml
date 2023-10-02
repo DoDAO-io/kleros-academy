@@ -1,21 +1,17 @@
 categories:
   - community
   - introduction
+content: Ini adalah panduan tentang Kleros!
+created: '2023-10-02T14:47:11.445Z'
+guideType: onboarding
+key: kleros-onboarding-guide-indonesia
+name: Panduan Orientasi Kleros
 postSubmissionStepContent: >-
   Terima kasih telah belajar tentang Kleros!
 
   Untuk informasi lebih lanjut, silakan kunjungi [situs web](https://kleros.io)
   kami atau pelajari [dokumentasi](https://kleros.gitbook.io/) kami.
-content: Ini adalah panduan tentang Kleros!
-created: '2023-05-03T10:16:34.114Z'
-guideIntegrations:
-  discordRoleIds: []
-  projectGalaxyCredentialId: '182363207202676736'
-  projectGalaxyOatMintUrl: https://galaxy.eco/kleros/campaign/GCi4xUthnN
-  projectGalaxyOatPassingCount: 2
-guideType: onboarding
-name: Panduan Orientasi Kleros
-showIncorrectOnCompletion: true
+publishStatus: Live
 steps:
   - content: >-
       # **Overview**
@@ -59,10 +55,11 @@ steps:
       * [Curate](https://curate.kleros.io/)
 
       * [Tokens](https://tokens.kleros.io/)
-    stepItems: []
     name: Overview
+    stepItems: []
     uuid: 8baddbfd-542b-4fa5-a7cd-7f6e1ea39959
   - content: ''
+    name: Penilaian
     stepItems:
       - answerKeys:
           - 22474f45
@@ -78,9 +75,9 @@ steps:
         content: Setelah intro singkat ini,menurut anda apakah Kleros itu?
         type: MultipleChoice
         uuid: 941e7260-08b2-4b47-aa7d-0e0269004c31
-    name: Penilaian
+        explanation: null
     uuid: f1bb7a83-ad22-4253-b0c1-016a13e32815
-  - content: >+
+  - content: >
       Pinakion (ticker:PNK) adalah asli token Kleros,dan di gunakan baik untuk
       partisipasi dalam penyelesaian sengketa (e.g. mempertaruhkan di pengadilan
       Kleros untuk mendapat kesempatan untuk ditarik sebagai juri) dan di dalam
@@ -97,10 +94,11 @@ steps:
       ambil di platform Kleros. Kami sudah menggunakan mekanisme ini untuk
       mengatur pada perubahan pada daftar dan pengadilan token kami yang
       dikuratori.
-    stepItems: []
     name: PNK Token
+    stepItems: []
     uuid: 40eb188e-5848-4b5f-a6d7-ed9f3336171c
   - content: ''
+    name: Penilaian
     stepItems:
       - answerKeys:
           - 8b5e277e
@@ -121,7 +119,7 @@ steps:
           (Pilih dua)
         type: MultipleChoice
         uuid: 9306f39c-6b53-412e-8dc0-3ebf4bc59ad1
-    name: Penilaian
+        explanation: null
     uuid: dd24d5d7-36fa-426a-9b61-659c4e8f808f
   - content: >
       Pengadilan Kleros memanfaatkan penilaian juri yang [terdesentralisasi dan
@@ -154,8 +152,8 @@ steps:
       Kleros tidak tertandingi di ruang Web3, dan mereka terus memberikan
       masukan kepada [Coopérative Kleros](https://kleros.io/coop/) (inti Kleros)
       untuk meningkatkan teknologi, parameter dan kebijakan pengadilan kami.
-    stepItems: []
     name: Mengapa Kleros bekerja
+    stepItems: []
     uuid: 7b888d4f-3bb1-4e6f-ae06-956837eea94a
   - content: >-
       Penyelesaian sengketa adalah salah satu benteng pertahanan terakhir yang
@@ -184,10 +182,11 @@ steps:
 
       * **Arbitrase dunia nyata** (lihat contoh ini [from
       Mexico](https://blog.kleros.io/how-to-enforce-blockchain-dispute-resolution-in-court-the-kleros-case-in-mexico/))
-    stepItems: []
     name: 'Kasus penggunaan '
+    stepItems: []
     uuid: c82d4954-8020-4305-99a2-78d7e9fb0059
   - content: ''
+    name: Pernilaian
     stepItems:
       - answerKeys:
           - 95798c37
@@ -216,7 +215,7 @@ steps:
           lagi? (jawab sebanyak mungkin)
         type: MultipleChoice
         uuid: 9e49f340-d230-463b-8d25-079fbee7e288
-    name: Pernilaian
+        explanation: null
     uuid: 74b83940-e29d-4c47-9b0f-d840c63dfdf5
   - content: >-
       # **Bergabung dengan Kleros **
@@ -247,11 +246,9 @@ steps:
       dokumentasi kami. Setelah anda memiliki beberapa PNK, anda dapat melihat
       pembimbingan juri kami untuk mempelajari cara mulai sebagai juri di 
        [juror tutorial](https://kleros.gitbook.io/docs/products/court/kleros-juror-tutorial) to learn how to get started as a juror  in the [Kleros Courts](https://court.kleros.io)!
-    stepItems: []
     name: Bergabung dengan kami!
+    stepItems: []
     uuid: a9ad88b6-67a9-480c-a0d8-2240ae2cb4ba
-publishStatus: Live
 thumbnail: ipfs://Qmdprj1VvYjzvRwV1L2uR8LoybCgzyWqi8vE9GCHNbHAxz
 uuid: kleros-onboarding-guide-indonesia
-key: kleros-onboarding-guide-indonesia
-version: 12
+version: 1

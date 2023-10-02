@@ -3,27 +3,23 @@
     "community",
     "introduction"
   ],
-  "postSubmissionStepContent": "Terima kasih telah belajar tentang Kleros!\nUntuk informasi lebih lanjut, silakan kunjungi [situs web](https://kleros.io) kami atau pelajari [dokumentasi](https://kleros.gitbook.io/) kami.",
   "content": "Ini adalah panduan tentang Kleros!",
-  "created": "2023-05-03T10:16:34.114Z",
-  "guideIntegrations": {
-    "discordRoleIds": [],
-    "projectGalaxyCredentialId": "182363207202676736",
-    "projectGalaxyOatMintUrl": "https://galaxy.eco/kleros/campaign/GCi4xUthnN",
-    "projectGalaxyOatPassingCount": 2
-  },
+  "created": "2023-10-02T14:47:11.445Z",
   "guideType": "onboarding",
+  "key": "kleros-onboarding-guide-indonesia",
   "name": "Panduan Orientasi Kleros",
-  "showIncorrectOnCompletion": true,
+  "postSubmissionStepContent": "Terima kasih telah belajar tentang Kleros!\nUntuk informasi lebih lanjut, silakan kunjungi [situs web](https://kleros.io) kami atau pelajari [dokumentasi](https://kleros.gitbook.io/) kami.",
+  "publishStatus": "Live",
   "steps": [
     {
       "content": "# **Overview**\n<div align=\"center\">\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/wZZ2ipS-jZw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div>\nKleros adalah protokol penyelesaian sengketa online open source yang menggunakan blockchain dan crowdsourcing untuk menyelesaikan sengketa secara adil.   \nMisi Kleros adalah pengembangan perangkat lunak yang memungkinkan akses terhadap keadilan dan kebebasan individu. Sebagai organisasi yang terdesentralisasi, ia beroperasi melalui struktur tata kelola komunitas di mana anggota komunitas memilih keputusan yang akan dibuat dalam organisasi. \n\n\nToken tata kelola untuk Kleros adalah PNK yang juga dapat dipertaruhkan dan digunakan untuk memilih proposal.\nBeberapa produk yang memanfaatkan Kleros Court telah di kembangkan oleh tim Kleros, antara lain:\n\n* [Dispute Resolver](https://resolve.kleros.io)\n* [Escrow](https://escrow.kleros.io)\n* [Proof of Humanity](https://www.proofofhumanity.id/)\n* [Linguo](https://linguo.kleros.io/)\n* [Curate](https://curate.kleros.io/)\n* [Tokens](https://tokens.kleros.io/)",
-      "stepItems": [],
       "name": "Overview",
+      "stepItems": [],
       "uuid": "8baddbfd-542b-4fa5-a7cd-7f6e1ea39959"
     },
     {
       "content": "",
+      "name": "Penilaian",
       "stepItems": [
         {
           "answerKeys": [
@@ -49,20 +45,21 @@
           ],
           "content": "Setelah intro singkat ini,menurut anda apakah Kleros itu?",
           "type": "MultipleChoice",
-          "uuid": "941e7260-08b2-4b47-aa7d-0e0269004c31"
+          "uuid": "941e7260-08b2-4b47-aa7d-0e0269004c31",
+          "explanation": null
         }
       ],
-      "name": "Penilaian",
       "uuid": "f1bb7a83-ad22-4253-b0c1-016a13e32815"
     },
     {
       "content": "Pinakion (ticker:PNK) adalah asli token Kleros,dan di gunakan baik untuk partisipasi dalam penyelesaian sengketa (e.g. mempertaruhkan di pengadilan Kleros untuk mendapat kesempatan untuk ditarik sebagai juri) dan di dalam pemerintahan (pemungutan hak suara untuk usul baru atau perubahan pada pengadilan Kleros).\n* **Staking dan hadiah koherensi**: Pengguna harus mempertaruhkan PNK agar bisa menjadi juri dalam perselisihan.Semakin banyak PNK yang dipertaruhkan pengguna,semakin tinggi peluang dia akan ditarik sebagai juri di pengadilan  yang dipilih, Pengguna yang memilih secara koheren akan menerima hadiah koherensi di akhir perselisihan.\n* **Hak pilih**: PNK digunakan untuk semua keputusan tata kelola yang di ambil di platform Kleros. Kami sudah menggunakan mekanisme ini untuk mengatur pada perubahan pada daftar dan pengadilan token kami yang dikuratori.\n",
-      "stepItems": [],
       "name": "PNK Token",
+      "stepItems": [],
       "uuid": "40eb188e-5848-4b5f-a6d7-ed9f3336171c"
     },
     {
       "content": "",
+      "name": "Penilaian",
       "stepItems": [
         {
           "answerKeys": [
@@ -89,26 +86,27 @@
           ],
           "content": "Token PNK dapat digunakan untuk apa?\n(Pilih dua)",
           "type": "MultipleChoice",
-          "uuid": "9306f39c-6b53-412e-8dc0-3ebf4bc59ad1"
+          "uuid": "9306f39c-6b53-412e-8dc0-3ebf4bc59ad1",
+          "explanation": null
         }
       ],
-      "name": "Penilaian",
       "uuid": "dd24d5d7-36fa-426a-9b61-659c4e8f808f"
     },
     {
       "content": "Pengadilan Kleros memanfaatkan penilaian juri yang [terdesentralisasi dan dipilih secara acak]((https://blog.kleros.io/is-kleros-a-fair-dispute-resolution-system/) ) untuk menyelesaikan perselisihan dalam keadaan tidak percaya,namun adil dan aman. Hal ini di mungkinkan oleh beberapa pilihan penting dalam desain pengadilan, menjadikan kami satu satu nya sistem penyelesaian sengketa yang [netral dan kredibel](https://kleros.gitbook.io/docs/products/court/kleros-and-credible-neutrality) di Web3:\n\n- Penggunaan **penyortiran** (alias undian acak) untuk pemilihan juri membuat kolusi menjadi sangat sulit.\n- **Sistem banding** membuat pemungutan suara acak tidak dapat dilakukan dan mengurangi apa yang disebut [p+epsilon attacks](https://blog.ethereum.org/2015/01/28/p-epsilon-attack/)\n- **Tujuan kekhususan** Kleros menghindari masalah kelelahan pemungutan suara komunitas ketika penyelesaian perselisihan dilakukan menggunakan proses tata kelola a DAO’s.\n- **Kebebasan** Kleros dari DAOs lain memungkinkan perselisihan untuk diselesaikan dengan cara yang netral dan tidak memihak.\n\nSelain itu keahlian dan pengalaman dalam penyelesaian sengketa komunitas Kleros tidak tertandingi di ruang Web3, dan mereka terus memberikan masukan kepada [Coopérative Kleros](https://kleros.io/coop/) (inti Kleros) untuk meningkatkan teknologi, parameter dan kebijakan pengadilan kami.\n",
-      "stepItems": [],
       "name": "Mengapa Kleros bekerja",
+      "stepItems": [],
       "uuid": "7b888d4f-3bb1-4e6f-ae06-956837eea94a"
     },
     {
       "content": "Penyelesaian sengketa adalah salah satu benteng pertahanan terakhir yang tersisa dari sentralisasi di Web3, dan Kleros memimpin tuntutan untuk mengubahnya.\n\nBerikut ini adalah beberapa contoh Kleros yang di gunakan:\n* **(DeFi) sengketa klaim asuransi** (lihat kemitraan kami dengan [Unslashed Finance](https://blog.kleros.io/welcome-to-decentralized-insurance-kleros-x-unslashed-finance/))\n* **Kurasi** (lihat pendaftar token Kleros yang dikuratori dari [address tags](https://blog.kleros.io/the-kleros-decentralized-tag-registry-a-proof-of-concept-for-securing-web3/) dan [tokens](https://blog.kleros.io/tokens-by-kleros-securing-uniswap-with-decentralized-lists/))\n* **Verifikasi identitas** ([Proof of Humanity](https://www.proofofhumanity.id/)) \n* **Mengamankan resolusi hasil oracle** (lihat [documentation](https://kleros.gitbook.io/docs/integrations/types-of-integrations/how-to-use-reality.eth-+-kleros-as-an-oracle) dan [Kleros+Gnosis’s partnership](https://blog.kleros.io/kleros-x-safesnap/))\n* **Arbitrase dunia nyata** (lihat contoh ini [from Mexico](https://blog.kleros.io/how-to-enforce-blockchain-dispute-resolution-in-court-the-kleros-case-in-mexico/))",
-      "stepItems": [],
       "name": "Kasus penggunaan ",
+      "stepItems": [],
       "uuid": "c82d4954-8020-4305-99a2-78d7e9fb0059"
     },
     {
       "content": "",
+      "name": "Pernilaian",
       "stepItems": [
         {
           "answerKeys": [
@@ -151,22 +149,20 @@
           ],
           "content": "Selain yang disebutkan sebelumnya Kleros bisa digunakan untuk apa lagi? (jawab sebanyak mungkin)",
           "type": "MultipleChoice",
-          "uuid": "9e49f340-d230-463b-8d25-079fbee7e288"
+          "uuid": "9e49f340-d230-463b-8d25-079fbee7e288",
+          "explanation": null
         }
       ],
-      "name": "Pernilaian",
       "uuid": "74b83940-e29d-4c47-9b0f-d840c63dfdf5"
     },
     {
       "content": "# **Bergabung dengan Kleros **\n\nUntuk bergabung dengan komunitas Kleros, klik tautan di bawah ini untuk terhubung melalui salah satu.\n\nSaluran sosial kami:\n1. **Discord** [https://discord.gg/MhXQGCyHd9](https://discord.gg/MhXQGCyHd9)\n2. **Slack** [https://slack.kleros.io/](https://slack.kleros.io/)\n3. **Telegram** [https://t.me/kleros](https://t.me/kleros)\n4. **GitHub** [https://github.com/kleros](https://github.com/kleros)\n5. **[Community developer quick-start guide](https://kleros.notion.site/kleros/Kleros-Developer-Notes-4cf727f984054a93bb718ff8dc56eaa7)** \n\n\nJika anda ingin membeli PNK untuk berpartisipasi sebagai juri di pengadilan kami, lihat daftar (terdesentralisasi) bursa kripto di dokumentasi kami. Setelah anda memiliki beberapa PNK, anda dapat melihat pembimbingan juri kami untuk mempelajari cara mulai sebagai juri di \n [juror tutorial](https://kleros.gitbook.io/docs/products/court/kleros-juror-tutorial) to learn how to get started as a juror  in the [Kleros Courts](https://court.kleros.io)!",
-      "stepItems": [],
       "name": "Bergabung dengan kami!",
+      "stepItems": [],
       "uuid": "a9ad88b6-67a9-480c-a0d8-2240ae2cb4ba"
     }
   ],
-  "publishStatus": "Live",
   "thumbnail": "ipfs://Qmdprj1VvYjzvRwV1L2uR8LoybCgzyWqi8vE9GCHNbHAxz",
   "uuid": "kleros-onboarding-guide-indonesia",
-  "key": "kleros-onboarding-guide-indonesia",
-  "version": 12
+  "version": 1
 }
