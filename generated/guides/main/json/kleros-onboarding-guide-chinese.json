@@ -3,27 +3,23 @@
     "community",
     "introduction"
   ],
-  "postSubmissionStepContent": "Thank you learning about Kleros! \nFor more information, feel free to check out our [website](https://kleros.io) or dive into our [documentation](https://kleros.gitbook.io/).",
   "content": "入门了解 Kleros 的基本指南!",
-  "created": "2023-05-03T10:16:34.114Z",
-  "guideIntegrations": {
-    "discordRoleIds": [],
-    "projectGalaxyCredentialId": "169812886727335936",
-    "projectGalaxyOatMintUrl": "https://galaxy.eco/kleros/campaign/GCi4xUthnN",
-    "projectGalaxyOatPassingCount": 2
-  },
+  "created": "2023-10-02T14:27:45.190Z",
   "guideType": "onboarding",
+  "key": "kleros-onboarding-guide-chinese",
   "name": "Kleros 入门指导 [中文】",
-  "showIncorrectOnCompletion": true,
+  "postSubmissionStepContent": "Thank you learning about Kleros! \nFor more information, feel free to check out our [website](https://kleros.io) or dive into our [documentation](https://kleros.gitbook.io/).",
+  "publishStatus": "Live",
   "steps": [
     {
       "content": "# **Overview**\n<div align=\"center\">\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/wZZ2ipS-jZw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div>\nKleros 是一个开源的在线争议裁决协议，它使用区块链和众包来实现公平的争议裁决。\n\nKleros 的使命是开发能够获得正义和个人自由的软件。 作为一个去中心化的组织，它通过社区治理进行运作，组织的决策均由社区成员投票决定。\n\nKleros 的治理代币是 PNK，它也可以被质押并用于对提案进行投票。 Kleros 团队已经开发了许多使用 Kleros 法庭的产品，它们包括：\n\n* [争议裁决器](https://resolve.kleros.io)\n* [托管支付](https://escrow.kleros.io)\n* [人类证明](https://www.proofofhumanity.id/)\n* [翻译平台](https://linguo.kleros.io/)\n* [列表平台](https://curate.kleros.io/)\n* [代币注册表](https://tokens.kleros.io/)",
-      "stepItems": [],
       "name": "概览",
+      "stepItems": [],
       "uuid": "1c0041c7-74e1-4e0a-baa9-1ba93664044f"
     },
     {
       "content": "",
+      "name": "自我评估",
       "stepItems": [
         {
           "answerKeys": [
@@ -49,20 +45,21 @@
           ],
           "content": "看过介绍视频之后, 你认为Kleros是?",
           "type": "MultipleChoice",
-          "uuid": "4e416411-08c3-4f7e-b2b8-2f1eec457879"
+          "uuid": "4e416411-08c3-4f7e-b2b8-2f1eec457879",
+          "explanation": null
         }
       ],
-      "name": "自我评估",
       "uuid": "df46fdcf-56d1-46f6-bcc8-1dc1d66f6bd1"
     },
     {
       "content": "Pinakion（PNK）是 Kleros 的原生代币，用于在 Kleros 法庭质押以有机会被选为陪审员而参与争议裁决，并且用于对组织治理提案进行投票（比如对 Kleros 法庭参数的更改）。\n* **质押和一致性奖励**：用户必须质押 PNK 才能有机会被选为[争议陪审员]（https://kleros.gitbook.io/docs/products/court/kleros-juror-tutorial）。 用户质押的 PNK 越多，被选为所质押法庭评审员的机会就越高。 对争议裁决投票给获胜方的评审员将在争议结束时获得奖励。\n* **投票权**：PNK 用于为Kleros 平台上所有治理决策进行投票(https://kleros.gitbook.io/docs/governance)。 我们已经使用这种机制来管理对我们的代币列表和法庭参数的更改。",
-      "stepItems": [],
       "name": "PNK 代币",
+      "stepItems": [],
       "uuid": "96f6e384-da61-48dd-a83a-b42122bc577d"
     },
     {
       "content": "",
+      "name": "自我评估",
       "stepItems": [
         {
           "answerKeys": [
@@ -89,26 +86,27 @@
           ],
           "content": "PNK代币可以用来做什么?\n(请选择两个答案)",
           "type": "MultipleChoice",
-          "uuid": "fe2116f4-f62c-409f-9fcf-3adde6430bf3"
+          "uuid": "fe2116f4-f62c-409f-9fcf-3adde6430bf3",
+          "explanation": null
         }
       ],
-      "name": "自我评估",
       "uuid": "9700f6b8-34cb-4ec0-b89b-13a0a1ba4811"
     },
     {
       "content": "Kleros 法庭利用 [去中心化和自选陪审团](https://blog.kleros.io/is-kleros-a-fair-dispute-resolution-system/) ，通过以无需信任但公平且安全的方式解决争议。这是通过在法庭设计中采用的几个重要元素进行实现，进而使我们成为Web3上唯一的 [可信赖中立方](https://kleros.gitbook.io/docs/products/court/kleros-and-credible-neutrality) 争议解决方案：\n- 在陪审团选择中使用**排序**（又名随机抽签）使得作弊串通变得极其困难。\n- **上诉系统**使随机投票无法获利并减轻所谓的 [p+epsilon 攻击](https://blog.ethereum.org/2015/01/28/p-epsilon-attack/)\n- 当使用 DAO 的内部治理流程解决争议时，Kleros 的**目的特定性**避免了社区投票疲劳的问题。\n- Kleros 与其他 DAO 的相互**独立性**允许以中立和公正的方式解决争议。\n\n最重要的是，Kleros 社区在争议裁决方面的专业知识和经验在 Web3 领域是无与伦比的，他们不断向 [Coopérative Kleros](https://kleros.io/coop/)（Kleros 核心团队）提供反馈来改进我们法庭的技术、参数和政策。",
-      "stepItems": [],
       "name": "Kleros 法庭工作原理",
+      "stepItems": [],
       "uuid": "bb5028fa-beec-4d6d-9136-7d02c54fcc01"
     },
     {
       "content": "争议裁决是 Web3 中最后急需解决的症结之一，Kleros 正在带头进行攻坚。\n\n以下是一些Kleros 的应用示例：\n* **（DeFi）保险索赔纠纷**（请参阅我们与 [Unslashed Finance]（https://blog.kleros.io/welcome-to-decentralized-insurance-kleros-x-unslashed-finance/）的合作伙伴关系）\n* **列表管理**（请参阅 [地址标签] 的 Kleros 代币管理注册表（https://blog.kleros.io/the-kleros-decentralized-tag-registry-a-proof-of-concept-for-securing- web3/) 和 [tokens](https://blog.kleros.io/tokens-by-kleros-securing-uniswap-with-decentralized-lists/))\n* **身份验证**（参见 [Proof of Humanity](https://www.proofofhumanity.id/)）\n* **确保预言机结果解决方案**（请参阅 [文档](https://kleros.gitbook.io/docs/integrations/types-of-integrations/how-to-use-reality.eth-+-kleros- as-an-oracle) 和 [Kleros+Gnosis 的合作伙伴关系](https://blog.kleros.io/kleros-x-safesnap/))\n* **现实世界的仲裁**（参见此示例 [来自墨西哥](https://blog.kleros.io/how-to-enforce-blockchain-dispute-resolution-in-court-the-kleros-case-in-mexico/））",
-      "stepItems": [],
       "name": "用例",
+      "stepItems": [],
       "uuid": "e4205221-08c7-49d5-a6fd-7bdbd12166ac"
     },
     {
       "content": "",
+      "name": "自我评估",
       "stepItems": [
         {
           "answerKeys": [
@@ -151,23 +149,20 @@
           ],
           "content": "除了之前提到的用例，Kleros还可以用于哪些应用场景? (多选)",
           "type": "MultipleChoice",
-          "uuid": "f545cea9-9a24-4e5c-8d28-eba470a3e78e"
+          "uuid": "f545cea9-9a24-4e5c-8d28-eba470a3e78e",
+          "explanation": null
         }
       ],
-      "name": "自我评估",
       "uuid": "55c699ce-eb87-492b-9f62-8e4f20381fe7"
     },
     {
       "content": "# **加入 Kleros**\n\n要加入 Kleros 社区，请单击以下链接以加入我们的社区：\n\n1. **Discord** [https://discord.gg/MhXQGCyHd9](https://discord.gg/MhXQGCyHd9)\n2. **Slack** [https://slack.kleros.io/](https://slack.kleros.io/)\n3. **Telegram** [https://t.me/kleros](https://t.me/kleros)\n4. **GitHub** [https://github.com/kleros](https://github.com/kleros)\n5. **[社区开发者快速入门指南](https://kleros.notion.site/kleros/Kleros-Developer-Notes-4cf727f984054a93bb718ff8dc56eaa7)**\n\n如果您想购买 PNK 作为评审员参加我们的法庭，请查看 [我们的文档] (https://kleros.gitbook.io/docs/pnk-token) 上的去中心化交易所列表。 一旦你有了一些 PNK，你就可以查看我们的 [陪审员教程](https://kleros.gitbook.io/docs/products/court/kleros-juror-tutorial) 了解如何在 [Kleros 法庭](https://court.kleros.io)开始担任评审员 ！",
-      "stepItems": [],
       "name": "加入Kleros社区!",
+      "stepItems": [],
       "uuid": "71615370-4e95-4332-8ff5-0796b54c47b9"
     }
   ],
-  "publishStatus": "Live",
-  "socialShareImage": "ipfs://QmZZRDrdzyh7AwYTtwj44LeATgmVYbZpsRebo8KE8YDTvL",
   "thumbnail": "ipfs://Qmdprj1VvYjzvRwV1L2uR8LoybCgzyWqi8vE9GCHNbHAxz",
   "uuid": "kleros-onboarding-guide-chinese",
-  "key": "kleros-onboarding-guide-chinese",
-  "version": 12
+  "version": 1
 }

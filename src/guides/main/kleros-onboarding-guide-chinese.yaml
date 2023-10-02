@@ -1,21 +1,17 @@
 categories:
   - community
   - introduction
+content: 入门了解 Kleros 的基本指南!
+created: '2023-10-02T14:27:45.190Z'
+guideType: onboarding
+key: kleros-onboarding-guide-chinese
+name: Kleros 入门指导 [中文】
 postSubmissionStepContent: >-
   Thank you learning about Kleros! 
 
   For more information, feel free to check out our [website](https://kleros.io)
   or dive into our [documentation](https://kleros.gitbook.io/).
-content: 入门了解 Kleros 的基本指南!
-created: '2023-05-03T10:16:34.114Z'
-guideIntegrations:
-  discordRoleIds: []
-  projectGalaxyCredentialId: '169812886727335936'
-  projectGalaxyOatMintUrl: https://galaxy.eco/kleros/campaign/GCi4xUthnN
-  projectGalaxyOatPassingCount: 2
-guideType: onboarding
-name: Kleros 入门指导 [中文】
-showIncorrectOnCompletion: true
+publishStatus: Live
 steps:
   - content: >-
       # **Overview**
@@ -49,10 +45,11 @@ steps:
       * [列表平台](https://curate.kleros.io/)
 
       * [代币注册表](https://tokens.kleros.io/)
-    stepItems: []
     name: 概览
+    stepItems: []
     uuid: 1c0041c7-74e1-4e0a-baa9-1ba93664044f
   - content: ''
+    name: 自我评估
     stepItems:
       - answerKeys:
           - only_cat
@@ -68,7 +65,7 @@ steps:
         content: 看过介绍视频之后, 你认为Kleros是?
         type: MultipleChoice
         uuid: 4e416411-08c3-4f7e-b2b8-2f1eec457879
-    name: 自我评估
+        explanation: null
     uuid: df46fdcf-56d1-46f6-bcc8-1dc1d66f6bd1
   - content: >-
       Pinakion（PNK）是 Kleros 的原生代币，用于在 Kleros
@@ -81,10 +78,11 @@ steps:
       * **投票权**：PNK 用于为Kleros
       平台上所有治理决策进行投票(https://kleros.gitbook.io/docs/governance)。
       我们已经使用这种机制来管理对我们的代币列表和法庭参数的更改。
-    stepItems: []
     name: PNK 代币
+    stepItems: []
     uuid: 96f6e384-da61-48dd-a83a-b42122bc577d
   - content: ''
+    name: 自我评估
     stepItems:
       - answerKeys:
           - 2b13025d
@@ -103,7 +101,7 @@ steps:
           (请选择两个答案)
         type: MultipleChoice
         uuid: fe2116f4-f62c-409f-9fcf-3adde6430bf3
-    name: 自我评估
+        explanation: null
     uuid: 9700f6b8-34cb-4ec0-b89b-13a0a1ba4811
   - content: >-
       Kleros 法庭利用
@@ -124,8 +122,8 @@ steps:
 
       最重要的是，Kleros 社区在争议裁决方面的专业知识和经验在 Web3 领域是无与伦比的，他们不断向 [Coopérative
       Kleros](https://kleros.io/coop/)（Kleros 核心团队）提供反馈来改进我们法庭的技术、参数和政策。
-    stepItems: []
     name: Kleros 法庭工作原理
+    stepItems: []
     uuid: bb5028fa-beec-4d6d-9136-7d02c54fcc01
   - content: >-
       争议裁决是 Web3 中最后急需解决的症结之一，Kleros 正在带头进行攻坚。
@@ -150,10 +148,11 @@ steps:
 
       * **现实世界的仲裁**（参见此示例
       [来自墨西哥](https://blog.kleros.io/how-to-enforce-blockchain-dispute-resolution-in-court-the-kleros-case-in-mexico/））
-    stepItems: []
     name: 用例
+    stepItems: []
     uuid: e4205221-08c7-49d5-a6fd-7bdbd12166ac
   - content: ''
+    name: 自我评估
     stepItems:
       - answerKeys:
           - 5f5c3f73
@@ -180,7 +179,7 @@ steps:
         content: 除了之前提到的用例，Kleros还可以用于哪些应用场景? (多选)
         type: MultipleChoice
         uuid: f545cea9-9a24-4e5c-8d28-eba470a3e78e
-    name: 自我评估
+        explanation: null
     uuid: 55c699ce-eb87-492b-9f62-8e4f20381fe7
   - content: >-
       # **加入 Kleros**
@@ -207,12 +206,9 @@ steps:
       PNK，你就可以查看我们的
       [陪审员教程](https://kleros.gitbook.io/docs/products/court/kleros-juror-tutorial)
       了解如何在 [Kleros 法庭](https://court.kleros.io)开始担任评审员 ！
-    stepItems: []
     name: 加入Kleros社区!
+    stepItems: []
     uuid: 71615370-4e95-4332-8ff5-0796b54c47b9
-publishStatus: Live
-socialShareImage: ipfs://QmZZRDrdzyh7AwYTtwj44LeATgmVYbZpsRebo8KE8YDTvL
 thumbnail: ipfs://Qmdprj1VvYjzvRwV1L2uR8LoybCgzyWqi8vE9GCHNbHAxz
 uuid: kleros-onboarding-guide-chinese
-key: kleros-onboarding-guide-chinese
-version: 12
+version: 1
