@@ -1,21 +1,17 @@
 categories:
   - community
   - introduction
+content: This is a basic guide to get acquainted with Kleros!
+created: '2023-10-02T14:26:27.017Z'
+guideType: onboarding
+key: kleros-onboarding-guide-en
+name: Kleros Onboarding Guide [EN]
 postSubmissionStepContent: >-
   Thank you for learning about Kleros! 
 
   For more information, feel free to check out our [website](https://kleros.io)
   or dive into our [documentation](https://kleros.gitbook.io/).
-content: This is a basic guide to get acquainted with Kleros!
-created: '2023-05-03T10:16:34.114Z'
-guideIntegrations:
-  discordRoleIds: []
-  projectGalaxyCredentialId: '3488'
-  projectGalaxyOatMintUrl: https://galaxy.eco/kleros/campaign/GCi4xUthnN
-  projectGalaxyOatPassingCount: 2
-guideType: onboarding
-name: Kleros Onboarding Guide [EN]
-showIncorrectOnCompletion: true
+publishStatus: Live
 steps:
   - content: >-
       # **Overview**
@@ -55,10 +51,11 @@ steps:
       * [Curate](https://curate.kleros.io/)
 
       * [Tokens](https://tokens.kleros.io/)
-    stepItems: []
     name: Overview
+    stepItems: []
     uuid: 5d24442e-cb38-41ed-a4d5-2303b4519673
   - content: ''
+    name: Evaluation
     stepItems:
       - answerKeys:
           - c54c9cf6
@@ -74,7 +71,7 @@ steps:
         content: After this short intro, what would you say Kleros is?
         type: MultipleChoice
         uuid: 87413a16-ca00-4202-98a0-ee680fec768e
-    name: Evaluation
+        explanation: null
     uuid: 9d2e056c-ef2e-4e24-9b4c-3349a3e56133
   - content: >-
       The Pinakion (ticker: PNK) is the native token of Kleros, and is used both
@@ -93,10 +90,11 @@ steps:
       decisions](https://kleros.gitbook.io/docs/governance) taken on the Kleros
       platform. We already use this mechanism to govern changes to our token
       curated lists and courts.
-    stepItems: []
     name: PNK Token
+    stepItems: []
     uuid: 52021b27-afbb-4533-a488-ac27852ce3e3
   - content: ''
+    name: Evaluation
     stepItems:
       - answerKeys:
           - 64cd37e3
@@ -117,7 +115,7 @@ steps:
           (Select two)
         type: MultipleChoice
         uuid: 993da91e-45c4-44ca-9c6c-8d37c441cecc
-    name: Evaluation
+        explanation: null
     uuid: e3461f68-f50b-4ede-adc4-6777407950d7
   - content: >-
       Kleros Court leverages the judgment of a [decentralized and
@@ -149,8 +147,8 @@ steps:
       provide feedback to [Coopérative Kleros](https://kleros.io/coop/) (aka the
       core Kleros team) to improve the technology, parameters and policies of
       our courts.
-    stepItems: []
     name: Why Kleros Court works
+    stepItems: []
     uuid: 7dc639ae-9a60-46d9-a952-65b204bcb0b3
   - content: >-
       Dispute resolution is one of the last remaining bastions of centralization
@@ -177,10 +175,11 @@ steps:
 
       * **Real-world arbitration** (see this example [from
       Mexico](https://blog.kleros.io/how-to-enforce-blockchain-dispute-resolution-in-court-the-kleros-case-in-mexico/))
-    stepItems: []
     name: Use cases
+    stepItems: []
     uuid: 793d7121-e919-42c5-b003-36e9adabb96b
   - content: ''
+    name: Evaluation
     stepItems:
       - answerKeys:
           - 1536ff3a
@@ -209,7 +208,7 @@ steps:
           (Multiple answers possible)
         type: MultipleChoice
         uuid: a1e54d49-cd66-425c-b607-884190d05656
-    name: Evaluation
+        explanation: null
     uuid: 8f471573-5c94-4ca1-bf77-ac810fb024e5
   - content: >-
       # **Join Kleros**
@@ -239,12 +238,9 @@ steps:
       tutorial](https://kleros.gitbook.io/docs/products/court/kleros-juror-tutorial)
       to learn how to get started as a juror  in the [Kleros
       Courts](https://court.kleros.io)!
-    stepItems: []
     name: Join the Kleros Community!
+    stepItems: []
     uuid: 32d8c188-8e23-4f59-8feb-3e70db99dd0d
-publishStatus: Live
-socialShareImage: ipfs://QmZZRDrdzyh7AwYTtwj44LeATgmVYbZpsRebo8KE8YDTvL
 thumbnail: ipfs://Qmdprj1VvYjzvRwV1L2uR8LoybCgzyWqi8vE9GCHNbHAxz
 uuid: kleros-onboarding-guide-en
-key: kleros-onboarding-guide-en
-version: 66
+version: 1
