@@ -1,21 +1,17 @@
 categories:
   - community
   - introduction
+content: Pangunahing gabay sa pag-aaral tungkol sa Kleros!
+created: '2023-10-02T14:48:35.922Z'
+guideType: onboarding
+key: kleros-onboarding-guide-filipo
+name: 'Gabay Para sa Kleros Onboarding '
 postSubmissionStepContent: >-
   Salamat sa pag-aral tungkol sa Kleros! 
 
   Para sa ibang mga impormasyon, i-check ang aming [website](https://kleros.io)
   at ang aming [Gitbook documentation](https://kleros.gitbook.io/).
-content: Pangunahing gabay sa pag-aaral tungkol sa Kleros!
-created: '2023-05-03T10:16:34.114Z'
-guideIntegrations:
-  discordRoleIds: []
-  projectGalaxyCredentialId: '174788601805709312'
-  projectGalaxyOatMintUrl: https://galaxy.eco/kleros/campaign/GCi4xUthnN
-  projectGalaxyOatPassingCount: 2
-guideType: onboarding
-name: 'Gabay Para sa Kleros Onboarding '
-showIncorrectOnCompletion: true
+publishStatus: Live
 steps:
   - content: >-
 
@@ -58,10 +54,11 @@ steps:
       * [Curate](https://curate.kleros.io/)
 
       * [Tokens](https://tokens.kleros.io/)
-    stepItems: []
     name: Pangkalahatang ideya
+    stepItems: []
     uuid: a863a90d-b802-48a6-96e1-8e40148bb283
   - content: ''
+    name: Pagsusuri
     stepItems:
       - answerKeys:
           - only_cat
@@ -79,7 +76,7 @@ steps:
           Kleros?
         type: MultipleChoice
         uuid: 88134893-d59c-4ed2-b9c0-68e6ee4bfa68
-    name: Pagsusuri
+        explanation: null
     uuid: 5f04ac04-cdcf-42c1-bd76-6da3644c66df
   - content: >-
       Ang Pinakion (ticker: PNK) ay ang native token ng Kleros, at ito ay
@@ -100,10 +97,11 @@ steps:
       * **Voting Rights**: Ginagamit ang PNK para sa pagsasagawa ng mga desisyon
       o panukala kaugnay sa Kleros platform. Ginagamit rin ang mekanismong ito
       upang pamahalaan ang mga pagbabago sa token curated list at Kleros Courts.
-    stepItems: []
     name: PNK Token
+    stepItems: []
     uuid: 56be9f50-93d2-485d-96a5-e96bdbff2866
   - content: ''
+    name: Pagsusuri
     stepItems:
       - answerKeys:
           - e9000b65
@@ -124,7 +122,7 @@ steps:
           (Pumili ng dalawang sagot.)
         type: MultipleChoice
         uuid: 3e31c62e-7130-4c18-a13a-40c17a9eb1f6
-    name: Pagsusuri
+        explanation: null
     uuid: 69bd0c82-083b-450e-85a8-5e0603be18a4
   - content: >-
       Ginagamit ng Kleros Court ang paghatol mula sa
@@ -157,8 +155,8 @@ steps:
       Kleros](https://kleros.io/coop/) (ang pangunahing Kleros team) upang
       mapabuti ang teknolohiya, mga parameters at mga patakaran sa Kleros
       courts.
-    stepItems: []
     name: Bakit gumagana ang Kleros Courts
+    stepItems: []
     uuid: 163f92c3-ffc4-44c8-b5d5-b899bce38cde
   - content: >-
       Ang dispute resolution ang isa sa mga huling natitirang sentralisado sa
@@ -188,10 +186,11 @@ steps:
 
       * **Real-world arbitration** (tingnan ang halimbawa mula sa [from
       Mexico](https://blog.kleros.io/how-to-enforce-blockchain-dispute-resolution-in-court-the-kleros-case-in-mexico/))
-    stepItems: []
     name: Paggamit ng Kleros
+    stepItems: []
     uuid: 195ccd65-9ad4-4c8b-9d30-523d57f8d65d
   - content: ''
+    name: Pagsusuri
     stepItems:
       - answerKeys:
           - b44aa049
@@ -220,7 +219,7 @@ steps:
           paggagamitan ng Kleros? (Pumili ng maraming sagot)
         type: MultipleChoice
         uuid: afe5e82b-0e7f-4810-ba7d-75d30fa9ca70
-    name: Pagsusuri
+        explanation: null
     uuid: 4e7a88f3-ac67-4a9c-96f2-d1958ca25f10
   - content: >-
       # **Sumali sa Kleros**
@@ -249,12 +248,9 @@ steps:
       tutorial](https://kleros.gitbook.io/docs/products/court/kleros-juror-tutorial)
       at alamin kung paano sumali bilang hurado sa [Kleros
       Courts](https://court.kleros.io)!
-    stepItems: []
     name: Sumali sa Kleros Community!
+    stepItems: []
     uuid: fdba26a9-3ff6-4967-a67d-d3832329e121
-publishStatus: Live
-socialShareImage: ipfs://QmZZRDrdzyh7AwYTtwj44LeATgmVYbZpsRebo8KE8YDTvL
 thumbnail: ipfs://Qmdprj1VvYjzvRwV1L2uR8LoybCgzyWqi8vE9GCHNbHAxz
 uuid: kleros-onboarding-guide-filipo
-key: kleros-onboarding-guide-filipo
-version: 7
+version: 1
