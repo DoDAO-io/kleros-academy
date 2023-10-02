@@ -1,22 +1,18 @@
 categories:
   - introduction
   - community
+content: ¡Esta es una guía básica para familiarizarse con Kleros!
+created: '2023-10-02T14:47:50.789Z'
+guideType: onboarding
+key: kleros-onboarding-guide-es
+name: Guía de incorporación de Kleros
 postSubmissionStepContent: >-
   ¡Gracias por aprender sobre Kleros!
 
   Para obtener más información, no dude en consultar nuestro [sitio
   web](https://kleros.io) o sumergirse en nuestra
   [documentación](https://kleros.gitbook.io/).
-content: ¡Esta es una guía básica para familiarizarse con Kleros!
-created: '2023-05-03T10:16:34.114Z'
-guideIntegrations:
-  discordRoleIds: []
-  projectGalaxyCredentialId: '182363386295263232'
-  projectGalaxyOatMintUrl: https://galaxy.eco/kleros/campaign/GCi4xUthnN
-  projectGalaxyOatPassingCount: 2
-guideType: onboarding
-name: Guía de incorporación de Kleros
-showIncorrectOnCompletion: true
+publishStatus: Live
 steps:
   - content: >-
       # **Vision General**
@@ -58,10 +54,11 @@ steps:
       * [Curate](https://curate.kleros.io/)
 
       * [Tokens](https://tokens.kleros.io/)
-    stepItems: []
     name: Vision General
+    stepItems: []
     uuid: 761181c3-2a1e-4ee3-92dd-92529c2343e0
   - content: ''
+    name: Evaluacion
     stepItems:
       - answerKeys:
           - only_cat
@@ -77,7 +74,7 @@ steps:
         content: Después de esta breve introducción, ¿Qué dirías que es Kleros?
         type: MultipleChoice
         uuid: 17062b39-bee2-493a-9623-f7519d5051b0
-    name: Evaluacion
+        explanation: null
     uuid: 69aceac2-2a16-40d6-937d-4e82e55f026d
   - content: >-
       El Pinakion (PNK) es el token nativo de Kleros y se usa tanto para
@@ -98,10 +95,11 @@ steps:
       tomadas](https://kleros.gitbook.io/docs/governance) en la plataforma de
       Kleros.  Ya usamos este mecanismo para controlar los cambios en nuestras
       listas de tokens purificadas y tribunales.
-    stepItems: []
     name: Token PNK
+    stepItems: []
     uuid: 0dd988e0-0e5d-491c-91f1-57b295c6b841
   - content: ''
+    name: Evaluacion
     stepItems:
       - answerKeys:
           - e795cd29
@@ -122,7 +120,7 @@ steps:
           (Seleccione dos)
         type: MultipleChoice
         uuid: 0c9f7dec-0cce-4d58-b998-c354ca40297a
-    name: Evaluacion
+        explanation: null
     uuid: e535a2a1-c3ec-45b8-9c3e-e3be386a342e
   - content: >-
       La corte de Kleros aprovecha el juicio de un [jurado descentralizado y
@@ -155,8 +153,8 @@ steps:
       Kleros](https://kleros.io/coop/) (también conocido como el equipo central
       de Kleros) para mejorar la tecnología, los parámetros y las políticas de
       nuestros tribunales.
-    stepItems: []
     name: Como funciona la corte de Kleros
+    stepItems: []
     uuid: f54d64bd-e17a-47f9-85ed-b144aea8a370
   - content: >-
       La resolución de disputas es uno de los últimos pilares de centralización
@@ -185,10 +183,11 @@ steps:
 
       * **Arbitraje del mundo real** (ver este ejemplo [de
       Mexico](https://blog.kleros.io/how-to-enforce-blockchain-dispute-resolution-in-court-the-kleros-case-in-mexico/))
-    stepItems: []
     name: Casos de uso
+    stepItems: []
     uuid: 9094dc08-655a-4291-a57a-9e7b082fa215
   - content: ''
+    name: Evaluación
     stepItems:
       - answerKeys:
           - 1c348f81
@@ -217,7 +216,7 @@ steps:
           utilizar Kleros? (Múltiples respuestas posibles)
         type: MultipleChoice
         uuid: f9ece5b9-f76e-4b66-ae4e-b24047d2da6e
-    name: Evaluación
+        explanation: null
     uuid: f9540aa1-da7e-4cab-9978-617b0c39cd9b
   - content: >-
       # **Únete a Kleros**
@@ -247,12 +246,9 @@ steps:
       jurados](https://kleros.gitbook.io/docs/products/court/kleros-juror-tutorial)
       aprender cómo comenzar como jurado en los [tribunales de
       Kleros](https://court.kleros.io)!
-    stepItems: []
     name: ¡Únete a la Comunidad Kleros!
+    stepItems: []
     uuid: 87b4a4b3-b47a-41a8-800d-cea1808ce3c2
-publishStatus: Live
-socialShareImage: ''
 thumbnail: ipfs://Qmdprj1VvYjzvRwV1L2uR8LoybCgzyWqi8vE9GCHNbHAxz
 uuid: kleros-onboarding-guide-es
-key: kleros-onboarding-guide-es
-version: 15
+version: 1
